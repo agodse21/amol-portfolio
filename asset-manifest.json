@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/amol-portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/amol-portfolio/static/js/main.df07242d.js",
+    "static/js/787.1ed0c42c.chunk.js": "/amol-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/amol-portfolio/index.html",
+    "main.073c9b0a.css.map": "/amol-portfolio/static/css/main.073c9b0a.css.map",
+    "main.df07242d.js.map": "/amol-portfolio/static/js/main.df07242d.js.map",
+    "787.1ed0c42c.chunk.js.map": "/amol-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.df07242d.js"
+  ]
+}

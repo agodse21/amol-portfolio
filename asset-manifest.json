@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/amol-portfolio/static/css/main.d7999ec3.css",
-    "main.js": "/amol-portfolio/static/js/main.6212947a.js",
+    "main.css": "/amol-portfolio/static/css/main.0a5828d7.css",
+    "main.js": "/amol-portfolio/static/js/main.e2dbb842.js",
     "static/js/787.1ed0c42c.chunk.js": "/amol-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/foodRecipe.jpg": "/amol-portfolio/static/media/foodRecipe.d702886d447a3e7a0c87.jpg",
+    "static/media/shop.com.jpg": "/amol-portfolio/static/media/shop.com.cfe7e8f0b5e79400cae3.jpg",
+    "static/media/weatherApp.jpg": "/amol-portfolio/static/media/weatherApp.abf91b6f554dfe567a97.jpg",
+    "static/media/bewakoof.jpg": "/amol-portfolio/static/media/bewakoof.f67c32ac7dae9636f95d.jpg",
     "static/media/PicsArt_12-13-12.59.47.jpg": "/amol-portfolio/static/media/PicsArt_12-13-12.59.47.8684d9bd1c5dab2d66ce.jpg",
+    "static/media/star war.jpg": "/amol-portfolio/static/media/star war.53dc05ffce4edc1be05b.jpg",
+    "static/media/contact.svg": "/amol-portfolio/static/media/contact.7902d4e71797e1f688fd.svg",
     "static/media/undraw_code_thinking_re_gka2.svg": "/amol-portfolio/static/media/undraw_code_thinking_re_gka2.9fd7b66e6bf0719fd139.svg",
     "static/media/react.svg": "/amol-portfolio/static/media/react.2b6a071759fcdac074f4dcad26eef347.svg",
-    "static/media/expressjs.svg": "/amol-portfolio/static/media/expressjs.493a0dd08d8d77a341e2d22676607a29.svg",
     "static/media/nodejs-icon.svg": "/amol-portfolio/static/media/nodejs-icon.615ffbea9529ca7047ed8a912bfd94b2.svg",
     "static/media/cplusplus.svg": "/amol-portfolio/static/media/cplusplus.3398ef505c35b160f8f737a0555dd38d.svg",
     "static/media/wordpress.svg": "/amol-portfolio/static/media/wordpress.1c0bf6df58e777b723f2044331883acc.svg",
@@ -15,17 +20,18 @@
     "static/media/redux.svg": "/amol-portfolio/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
     "static/media/typescript.svg": "/amol-portfolio/static/media/typescript.31f8fee8ebb12b8547b26c234bcd839f.svg",
     "static/media/bootstrap.svg": "/amol-portfolio/static/media/bootstrap.19a2d2ff74985cbf49a1aed7fb4d5401.svg",
+    "index.html": "/amol-portfolio/index.html",
     "static/media/git.svg": "/amol-portfolio/static/media/git.a0b8447eefa4cd939642f1017ee1c962.svg",
     "static/media/javascript.svg": "/amol-portfolio/static/media/javascript.e9360603cdd412c8f9acb925313bc3f3.svg",
+    "static/media/express-js-icon.svg": "/amol-portfolio/static/media/express-js-icon.ea97b712340ffb8f11d85ccb96309507.svg",
     "static/media/css.svg": "/amol-portfolio/static/media/css.43b6f4bdbc0f36b9f2dd15c6ebbcea15.svg",
-    "index.html": "/amol-portfolio/index.html",
     "static/media/html.svg": "/amol-portfolio/static/media/html.6a342d61e4fe710cf3e5c05b65b0ac87.svg",
-    "main.d7999ec3.css.map": "/amol-portfolio/static/css/main.d7999ec3.css.map",
-    "main.6212947a.js.map": "/amol-portfolio/static/js/main.6212947a.js.map",
+    "main.0a5828d7.css.map": "/amol-portfolio/static/css/main.0a5828d7.css.map",
+    "main.e2dbb842.js.map": "/amol-portfolio/static/js/main.e2dbb842.js.map",
     "787.1ed0c42c.chunk.js.map": "/amol-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7999ec3.css",
-    "static/js/main.6212947a.js"
+    "static/css/main.0a5828d7.css",
+    "static/js/main.e2dbb842.js"
   ]
 }

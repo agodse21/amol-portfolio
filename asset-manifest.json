@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amol-portfolio/static/css/main.0a5828d7.css",
-    "main.js": "/amol-portfolio/static/js/main.685c93c9.js",
+    "main.css": "/amol-portfolio/static/css/main.d4a4164c.css",
+    "main.js": "/amol-portfolio/static/js/main.f53ec967.js",
     "static/js/787.1ed0c42c.chunk.js": "/amol-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/foodRecipe.jpg": "/amol-portfolio/static/media/foodRecipe.d702886d447a3e7a0c87.jpg",
     "static/media/shop.com.jpg": "/amol-portfolio/static/media/shop.com.cfe7e8f0b5e79400cae3.jpg",
@@ -26,12 +26,12 @@
     "static/media/express-js-icon.svg": "/amol-portfolio/static/media/express-js-icon.ea97b712340ffb8f11d85ccb96309507.svg",
     "static/media/css.svg": "/amol-portfolio/static/media/css.43b6f4bdbc0f36b9f2dd15c6ebbcea15.svg",
     "static/media/html.svg": "/amol-portfolio/static/media/html.6a342d61e4fe710cf3e5c05b65b0ac87.svg",
-    "main.0a5828d7.css.map": "/amol-portfolio/static/css/main.0a5828d7.css.map",
-    "main.685c93c9.js.map": "/amol-portfolio/static/js/main.685c93c9.js.map",
+    "main.d4a4164c.css.map": "/amol-portfolio/static/css/main.d4a4164c.css.map",
+    "main.f53ec967.js.map": "/amol-portfolio/static/js/main.f53ec967.js.map",
     "787.1ed0c42c.chunk.js.map": "/amol-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a5828d7.css",
-    "static/js/main.685c93c9.js"
+    "static/css/main.d4a4164c.css",
+    "static/js/main.f53ec967.js"
   ]
 }

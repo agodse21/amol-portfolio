@@ -1,0 +1,37 @@
+
+.Heading{
+    margin: auto;
+    width: 32%;
+    border-bottom: 4px solid #dc143c;
+}
+.MobHeading{
+    margin: auto;
+    width: 90%;
+    border-bottom: 4px solid #dc143c;
+}
+.TabHeading{
+    margin: auto;
+    width: 60%;
+    border-bottom: 4px solid #dc143c;
+}
+.boxes{
+    transition: transform 0.5s linear;
+}
+.boxes:hover{
+    transform: scale(1.1);
+
+    transition: 0.5s ease-in;
+}
+.Text{
+    margin: auto;
+    width: 10%;
+    border-bottom: 4px solid #dc143c;
+}
+.box:hover{
+   
+    background-color:#1d3866;
+}
+.box1:hover{
+   
+    background-color:#c1c3c5;
+}

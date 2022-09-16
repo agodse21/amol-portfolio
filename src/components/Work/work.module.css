@@ -1,0 +1,50 @@
+
+.Heading{
+    margin: auto;
+    width: 35%;
+    border-bottom: 4px solid #dc143c;
+}
+.MobHeading{
+    margin: auto;
+    width: 85%;
+    border-bottom: 4px solid #dc143c;
+}
+.TabHeading{
+    margin: auto;
+    width: 50%;
+    border-bottom: 4px solid #dc143c;
+}
+.liveIcons{
+    
+    width: 40px;
+    height: 40px;
+    background-color:transparent;
+    border-radius: 50%;
+    display: flex;
+ justify-content: center;
+    align-items:center ;
+    cursor: pointer;
+}
+.boxes{
+    transition: transform 0.5s linear;
+}
+.boxes:hover{
+    transform: scale(1.1);
+
+    transition: 0.5s ease-in;
+}
+
+.liveIcons:hover{
+    width: 40px;
+    height: 40px;
+    background-color: #dc143c;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+ justify-content: center;
+    align-items:center ;
+}
+.SocialIcon:hover{
+    /* background-color: #dc143c; */
+    color: white;
+}

@@ -1,0 +1,59 @@
+.img{
+    background-image: url(../../Assets/contact.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30em;
+    width: 30em;
+    max-width: 100%;
+    z-index: 0;
+    /* border-radius: 50%; */
+    /* background-image: url(/static/media/profilephoto.d2abca52.jpg); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
+.Heading{
+    margin: auto;
+    width: 52%;
+    border-bottom: 4px solid #dc143c;
+}
+.TabHeading{
+    margin: auto;
+    width: 75%;
+    border-bottom: 4px solid #dc143c;
+/* font-size: 10px; */
+}
+.MobHeading{
+  margin: auto;
+    width: 85%;
+    border-bottom: 4px solid #dc143c;
+
+}
+/* 
+
+.inputSec input[type="text"]{
+    height: 50px;
+    border-radius: 8px;
+    padding-left: 10px;
+    background-color:white;
+    color: red;
+    width: 100%;
+    margin-top: 20px;
+    border: 3px solid black;
+} */
+
+.form{
+    margin-top: 20px;
+    width: 50%;
+}
+.iconBox:hover{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #dc143c;
+    color: white;
+}
+.iconBox{
+    padding: 10px;
+    /* border-radius: 8px;
+    background-color: #dc143c;
+    color: white; */
+}

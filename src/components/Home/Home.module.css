@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.font{
+font-family: "Poppins",sans-serif;
+  
+}
+/* font-family: 'Archivo Black', sans-serif; */
+
+
+.profilePicture{
+background-image: url(../../Assets/PicsArt_12-13-12.59.47.jpg);
+height: 95%;
+    width: 92%;
+  
+    border-radius: 50%;
+    /* background-image: url(/static/media/profilephoto.d2abca52.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    /* transform: scale(1.1); */
+    
+    transition: transform 3s linear;
+}
+.profilePicture:hover{
+   transform: scale(1.1);
+
+    transition: 1s ease-in;
+
+    /* transform-origin: 50% 30%;  */
+     transition: transform 3s linear;
+    /* transition: 1s ease-in; */
+}
+
+
+/* .line{
+  width: 80%;
+  
+  margin:auto;
+  margin-top: 15px;
+  height: 5px;
+  background-color:#dc143c;
+} */
+
+/* <Box className={styles.button}>
+            <Box className={styles.icon}>
+               /* <i class="fab fa-twitter"></i> */
+               
+               
+            /* </Box> */
+            /* <span>RESUME</span> */
+         /* </Box> */ 
+
+
+/* 
+.button{
+    display: inline-block;
+    height:30px;
+    width: 80px;
+    margin: 60px 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+   float: left;
+  }
+  .button:hover{
+    width: 200px;
+  }
+   
+ .icon{
+    display: inline-block;
+    height: 30px;
+    /* width: 60px; */
+    /* text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px; */
+    /* transition: all 0.3s ease-out; */ 
+  /* } */
+/*
+  .button:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+
+  .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+
+  .button:hover .icon i{
+    color: #fff;
+  }
+
+  .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  } */ 

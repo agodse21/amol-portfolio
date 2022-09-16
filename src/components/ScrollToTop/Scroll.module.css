@@ -1,0 +1,52 @@
+.btn{
+  position: fixed;
+  left: 94vw;
+  bottom: 4vw;
+  height: 1em;
+  font-size: 3rem;
+  z-index: 99;
+  cursor: pointer;
+  color:#dc143c;
+  /* opacity: 50%; */
+/* background-color: white; */
+border-radius: 50%;
+ 
+}
+.Mobbtn{
+  position: fixed;
+  left: 94vw;
+  bottom: 4vw;
+  height: 1em;
+  font-size: 2rem;
+  z-index: 99;
+  cursor: pointer;
+  color:#dc143c;
+  /* opacity: 50%; */
+/* background-color: white; */
+border-radius: 50%;
+ 
+}
+.Tabbtn{
+  position: fixed;
+  left: 90vw;
+  bottom: 4vw;
+  height: 1em;
+  font-size: 3rem;
+  z-index: 99;
+  cursor: pointer;
+  color:#dc143c;
+  /* opacity: 50%; */
+/* background-color: white; */
+border-radius: 50%;
+ 
+}
+
+.icon:hover{
+  color:orangered;
+  transform: translateY(-5px);
+}
+
+.icon2.hover{
+  color: #0f1624;
+  transform: translateY(-5px);
+}

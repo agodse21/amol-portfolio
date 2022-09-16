@@ -1,0 +1,37 @@
+.img{
+    background-image: url(../../Assets/undraw_code_thinking_re_gka2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40em;
+    width: 40em;
+    max-width: 100%;
+    z-index: 0;
+    /* border-radius: 50%; */
+    /* background-image: url(/static/media/profilephoto.d2abca52.jpg); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
+.MObimg{
+    background-image: url(../../Assets/undraw_code_thinking_re_gka2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20em;
+    width: 20em;
+    max-width: 100%;
+    z-index: 0;
+}
+.MobileHeading{
+    margin: auto;
+    width: 45%;
+    border-bottom: 4px solid #dc143c;
+}
+.TabHeading{
+    margin: auto;
+    width: 35%;
+    border-bottom: 4px solid #dc143c;
+}
+.Heading{
+    margin: auto;
+    width: 17%;
+    border-bottom: 4px solid #dc143c;
+}

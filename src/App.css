@@ -13,6 +13,14 @@
   }
 }
 
+
+.logo{
+  font-family: Sacramento;
+  src:url('./Assets/Font/Sacramento-Regular.ttf');
+}
+
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

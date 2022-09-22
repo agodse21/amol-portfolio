@@ -8,13 +8,13 @@ import { Skills } from "../components/Skills/Skills";
 import { Work } from "../components/Work/Work";
 
 function AllRoutes({props}){
-    const {scrollsection,about,work,conatct,home,skills}=props;
+    const {scrollsection,about,work,tech,conatct,home,skills}=props;
 
 
     return(
         <Box>
             <Routes>
-                <Route path="/amol-portfolio" element={<Home props={{scrollsection,about,work,conatct,home,skills}} />} />
+                <Route path="/amol-portfolio" element={<Home props={{scrollsection,about,tech,work,conatct,home,skills}} />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/work" element={<Work />} />
                 <Route path="/skills" element={<Skills />} />

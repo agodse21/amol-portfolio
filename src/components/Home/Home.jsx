@@ -24,6 +24,8 @@ import { Contact } from "../Contact/Contact";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 // import resume from ""
 import { useMediaQuery } from "react-responsive";
+import {TechStack} from "../Tech Stack/TechStack";
+import { GithubCalender } from "../GitCalender/GithubCalender";
 
 const Desktop = ({ children }) => {
   const isDesktop = useMediaQuery({ minWidth: 992 });
@@ -49,7 +51,7 @@ const typewritterStrings = [
 ];
 
 export const Home = ({ props }) => {
-  const { scrollsection, about, work, conatct, home, skills } = props;
+  const { scrollsection, about, work, conatct, home,tech, skills } = props;
 
   const { colorMode, toggleColorMode } = useColorMode();
   const [animation, setAnimation] = useState(false);
@@ -146,13 +148,20 @@ export const Home = ({ props }) => {
         </Box>
         <Box className={styles.line}></Box>
 
-        <Box ref={about}>
+        <Box height="1300px" ref={about}>
           <About />
+        
+
+         <GithubCalender />
         </Box>
         <Box ref={work}>
           <Work />
+          
         </Box>
-        <Box h="800px" ref={skills}>
+        <Box  h="800px" ref={tech} >
+         <TechStack />
+        </Box>
+        <Box ref={skills}>
           <Skills />
         </Box>
         <Box ref={conatct}>
@@ -243,10 +252,14 @@ export const Home = ({ props }) => {
         </Box>
         <Box h="auto" ref={about}>
           <About />
+          <GithubCalender />
         </Box>
        
         <Box h="auto" ref={work}>
           <Work />
+        </Box>
+        <Box ref={tech} >
+         <TechStack />
         </Box>
         <Box h="auto" ref={skills}>
           <Skills />
@@ -338,10 +351,14 @@ export const Home = ({ props }) => {
         </Box>
         <Box h="auto"  ref={about}>
           <About />
+          <GithubCalender />
         </Box>
         
         <Box h="auto" ref={work}>
           <Work />
+        </Box>
+        <Box ref={tech} >
+         <TechStack />
         </Box>
         <Box h="auto" ref={skills}>
           <Skills />

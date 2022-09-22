@@ -35,7 +35,7 @@ const Navbar = ({props}) => {
   const { isOpen, onOpen, onClose } = useDisclosure()
   // const btnRef =useRef()
 
-const {scrollsection,about,work,conatct,home,skills}=props;
+const {scrollsection,about,work,conatct,home,tech,skills}=props;
 {/* <Button onClick={()=>scrollsection(services)}>Amolll</Button> */}
 
   const links = [
@@ -50,6 +50,10 @@ const {scrollsection,about,work,conatct,home,skills}=props;
     {
       path: work,
       title: "PROJECTS"
+    },
+    {
+      path:tech,
+      title:"TECH STACK"
     },
     {
       path: skills,
@@ -98,13 +102,13 @@ const {scrollsection,about,work,conatct,home,skills}=props;
             </Box>
           </Link>
             <Spacer />
-            <Box w="40%" >
+            <Box w="50%" >
               <Flex justifyContent="space-evenly">
               
 
 {links.map((link) => (
        
-           <Heading   fontFamily="poppins" cursor="pointer" onClick={()=>scrollsection(link.path)} size="md" p="10px"  _hover={{
+           <Heading   fontFamily="poppins" cursor="pointer" onClick={()=>scrollsection(link.path)} size="sm" p="10px"  _hover={{
             backgroundColor: "#dc143c",
             padding: '10px',
             borderRadius: "7px",

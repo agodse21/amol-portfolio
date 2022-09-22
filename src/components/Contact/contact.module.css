@@ -11,6 +11,15 @@
     /* background-size: cover;
     background-repeat: no-repeat; */
 }
+.texts{
+    transition: transform 0.5s linear;
+}
+.texts:hover{
+color:  #dc143c;
+transform: scale(1.1);
+
+    transition: 0.5s ease-in;
+}
 .Heading{
     margin: auto;
     width: 52%;

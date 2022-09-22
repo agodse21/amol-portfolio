@@ -1,29 +1,17 @@
 
 .Heading{
     margin: auto;
-    width: 18%;
-    border-bottom: 4px solid #dc143c;
-}
-.SubHead{
-    width: 22%;
-    border-bottom: 4px solid #dc143c;
-}
-.TabSubHead{
-    width: 42%;
-    border-bottom: 4px solid #dc143c;
-}
-.MoBSubHead{
-    width: 55%;
+    width: 20%;
     border-bottom: 4px solid #dc143c;
 }
 .MobHeading{
     margin: auto;
-    width: 50%;
+    width: 55%;
     border-bottom: 4px solid #dc143c;
 }
 .TabHeading{
     margin: auto;
-    width: 45%;
+    width: 40%;
     border-bottom: 4px solid #dc143c;
 }
 .boxes{

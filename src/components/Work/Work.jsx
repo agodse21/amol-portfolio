@@ -520,7 +520,7 @@ export const Work = () => {
                     A Individual project, built in 5 days.
                   </Text>
                   <Center>
-                    <Flex w="70%" mt={7} p={2}>
+                    <Flex w="70%" mt="80px" p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a

@@ -11,6 +11,8 @@ import {
 import styles from "./About.module.css";
 import ScrollAnimation from "react-animate-on-scroll";
 import { useMediaQuery } from "react-responsive";
+import GitHubCalendar from 'react-github-calendar';
+
 
 const Desktop = ({ children }) => {
   const isDesktop = useMediaQuery({ minWidth: 992 });
@@ -44,6 +46,7 @@ export const About = () => {
             {" "}
             <span style={{ color: "#dc143c" }}> Who </span>I am
           </Heading>
+          
           <Flex ml={20} mt={20} mr={10}>
             <Center>
               <Box data-aos="fade-down-right" className={styles.img}>
@@ -79,7 +82,10 @@ export const About = () => {
                 solution to any problem.
               </Text>
             </Box>
+            
           </Flex>
+        
+          
         </Box>
       </Desktop>
       <Tablet>

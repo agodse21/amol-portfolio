@@ -17,6 +17,7 @@ function App() {
   const home =useRef(null)
   const about =useRef(null);
   const work =useRef(null)
+  const tech =useRef(null)
   const skills =useRef(null);
   const conatct =useRef(null)
   // const about =useRef(null);
@@ -33,8 +34,8 @@ const scrollsection=(elementref)=>{
  
   return (<>
     
- <Navbar  props={{scrollsection,about,work,conatct,home,skills}} />  
-   <AllRoutes props={{scrollsection,about,work,conatct,home,skills}}  />
+ <Navbar  props={{scrollsection,about,tech,work,conatct,home,skills}} />  
+   <AllRoutes props={{scrollsection,about,tech,work,conatct,home,skills}}  />
   
    <ScrollToTop props={{scrollsection,home}} />
    <SideBarIcons />

@@ -106,16 +106,16 @@ export const Contact = () => {
     <>
       <Desktop>
         <Box
-          pt={10}
+          pt={5}
           pb={10}
           fontFamily="poppins"
           textAlign="center"
-          bg={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+         
         >
           <Heading
             data-aos="zoom-in"
             className={styles.Heading}
-            mt={10}
+            mt={5}
             size="2xl"
             fontFamily="poppins"
           >
@@ -189,17 +189,24 @@ export const Contact = () => {
                             </Flex>
                           </Box>
                         </a>
+                        <a
+                          className={styles.SocialIcon}
+                          target="_blank"
+                          href="https://api.whatsapp.com/send/?phone=919860672023&text=I%27m+interested+to+talk+with+you!&type=phone_number&app_absent=0"
+                        >
                         <Box ml={10} className={styles.iconBox}>
                           <Flex justifyContent="center" alignItems="center">
                             <BsTelephoneFill
                               size={25}
                               style={{ marginRight: "10px" }}
                             />
+                         
                             <Text fontFamily="poppins" fontSize="22px">
                               9860672023
                             </Text>{" "}
                           </Flex>
                         </Box>
+                        </a>
                       </Center>
                     </Flex>
                   </Box>
@@ -292,7 +299,7 @@ export const Contact = () => {
             </Flex>
           </Flex>
           <Box>
-            <Text>
+            <Text className={styles.texts} >
               Designed and Developed by Amol Godse,© Copyright 2022. All rights
               reserved
             </Text>
@@ -305,7 +312,7 @@ export const Contact = () => {
           pb={10}
           fontFamily="poppins"
           textAlign="center"
-          bg={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+         
         >
           <Heading
             data-aos="zoom-in"
@@ -384,6 +391,11 @@ export const Contact = () => {
                             </Flex>
                           </Box>
                         </a>
+                        <a
+                          className={styles.SocialIcon}
+                          target="_blank"
+                          href="https://api.whatsapp.com/send/?phone=919860672023&text=I%27m+interested+to+talk+with+you!&type=phone_number&app_absent=0"
+                        >
                         <Box ml={10} className={styles.iconBox}>
                           <Flex justifyContent="center" alignItems="center">
                             <BsTelephoneFill
@@ -395,6 +407,7 @@ export const Contact = () => {
                             </Text>{" "}
                           </Flex>
                         </Box>
+                        </a>
                       </Center>
                     </Flex>
                   </Box>
@@ -474,7 +487,7 @@ export const Contact = () => {
           </Center>
 
           <Box>
-            <Text fontSize="13px">
+            <Text className={styles.texts} fontSize="13px">
               Designed and Developed by Amol Godse,© Copyright 2022. All rights
               reserved
             </Text>
@@ -487,7 +500,7 @@ export const Contact = () => {
           pb={10}
           fontFamily="poppins"
           textAlign="center"
-          bg={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+         
         >
           <Heading
             data-aos="zoom-in"
@@ -566,6 +579,11 @@ export const Contact = () => {
                             </Flex>
                           </Box>
                         </a>
+                        <a
+                          className={styles.SocialIcon}
+                          target="_blank"
+                          href="https://api.whatsapp.com/send/?phone=919860672023&text=I%27m+interested+to+talk+with+you!&type=phone_number&app_absent=0"
+                        >
                         <Box ml={10} className={styles.iconBox}>
                           <Flex justifyContent="center" alignItems="center">
                             <BsTelephoneFill
@@ -577,6 +595,7 @@ export const Contact = () => {
                             </Text>{" "}
                           </Flex>
                         </Box>
+                        </a>
                       </Center>
                     </Flex>
                   </Box>
@@ -656,7 +675,7 @@ export const Contact = () => {
           </Center>
 
           <Box>
-            <Text fontSize="13px">
+            <Text className={styles.texts}  fontSize="13px">
               Designed and Developed by Amol Godse,© Copyright 2022. All rights
               reserved
             </Text>

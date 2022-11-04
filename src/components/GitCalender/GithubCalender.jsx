@@ -31,15 +31,18 @@ export const GithubCalender = () => {
     <>
       
    <Desktop>
-    <Box mt="-350px">
+    <Box mt={"-300px"}>
     {/* <Box bgColor={colorMode === 'light' ? 'black' : 'white'} className={styles.line}></Box> */}
        <Heading 
       // / mt="15px"
+      m="auto"
        mb="25px"
           data-aos="flip-down"
           className={styles.Heading}
           size="xl"
           fontFamily="poppins"
+          textAlign={"center"}
+
         >
           {" "}
            Github<span style={{ color: "#dc143c" }}> Activity </span> 
@@ -71,6 +74,9 @@ export const GithubCalender = () => {
 </Center>
       </Box>
     </Box>
+    
+   
+    
     </Desktop>
   <Tablet>
   <Box mt="-50px" mb={10}>

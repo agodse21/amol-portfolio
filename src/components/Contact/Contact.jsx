@@ -674,7 +674,7 @@ export const Contact = () => {
           </Stack>
           </Center>
 
-          <Box>
+          <Box w="85%"  m="auto">
             <Text className={styles.texts}  fontSize="13px">
               Designed and Developed by Amol Godse,© Copyright 2022. All rights
               reserved

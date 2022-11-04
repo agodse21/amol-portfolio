@@ -26,6 +26,7 @@ import { ChevronRightIcon } from "@chakra-ui/icons";
 import { useMediaQuery } from "react-responsive";
 import {TechStack} from "../Tech Stack/TechStack";
 import { GithubCalender } from "../GitCalender/GithubCalender";
+import { GitStat } from "../GitStat/gitstat";
 
 const Desktop = ({ children }) => {
   const isDesktop = useMediaQuery({ minWidth: 992 });
@@ -54,28 +55,32 @@ export const Home = ({ props }) => {
   const { scrollsection, about, work, conatct, home,tech, skills } = props;
 
   const { colorMode, toggleColorMode } = useColorMode();
-  const [animation, setAnimation] = useState(false);
-
+ 
   return (
     <>
       <Desktop>
         <Box
+       w="100%"
           position="relative"
           fontFamily="poppins"
           mt="80px"
           zIndex="1"
           h="640px"
           bg={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+          // border="1px solid red"
         >
-          <Flex alignItems="center">
-            <Center>
+          <Flex alignItems="center" w="100%" m="auto" justifyContent={"center"}>
+          
               <Box
+          
                 data-aos="zoom-in"
                 h="640px"
+               p={5}
+              w="50%"
                 fontFamily="poppins"
                 textAlign="start"
               >
-                <Box ml={250} mt={150}>
+                <Box ml={200} mt={150}>
                   <Text
                     fontFamily="poppins"
                     fontSize="3xl"
@@ -86,7 +91,7 @@ export const Home = ({ props }) => {
                   </Text>
 
                   <Heading
-                    size="4xl"
+                    size="3xl"
                     mt={5}
                     fontFamily="poppins"
                     fontWeight="bold"
@@ -138,8 +143,8 @@ export const Home = ({ props }) => {
                   {/* <Button>amol</Button> */}
                 </Box>
               </Box>
-            </Center>
-            <Box data-aos="zoom-in" w="50%">
+            
+            <Box data-aos="zoom-in"   w="50%">
               <Flex alignItems="center">
                 <HeaderSection />
               </Flex>
@@ -148,11 +153,9 @@ export const Home = ({ props }) => {
         </Box>
         <Box className={styles.line}></Box>
 
-        <Box height="1300px" ref={about}>
+        <Box  ref={about}>
           <About />
-        
-
-         <GithubCalender />
+      
         </Box>
         <Box ref={work}>
           <Work />
@@ -168,6 +171,7 @@ export const Home = ({ props }) => {
           <Contact />
         </Box>
       </Desktop>
+   
    
       <Tablet>
       <Box
@@ -253,6 +257,7 @@ export const Home = ({ props }) => {
         <Box h="auto" ref={about}>
           <About />
           <GithubCalender />
+        <GitStat />
         </Box>
        
         <Box h="auto" ref={work}>
@@ -352,6 +357,7 @@ export const Home = ({ props }) => {
         <Box h="auto"  ref={about}>
           <About />
           <GithubCalender />
+          <GitStat />
         </Box>
         
         <Box h="auto" ref={work}>
@@ -367,6 +373,7 @@ export const Home = ({ props }) => {
           <Contact />
         </Box>
       </Mobile>
+   
     </>
   );
 };

@@ -1,22 +1,21 @@
 
 .Heading{
     margin: auto;
-    width: 35%;
+    width: 40%;
     border-bottom: 4px solid #dc143c;
 }
 .MobHeading{
     margin: auto;
-    width: 85%;
+    width: 90%;
     border-bottom: 4px solid #dc143c;
 }
 .TabHeading{
     margin: auto;
-    width: 50%;
+    width: 55%;
     border-bottom: 4px solid #dc143c;
 }
 .liveIcons{
-    
-    width: 40px;
+     width: 40px;
     height: 40px;
     background-color:transparent;
     border-radius: 50%;

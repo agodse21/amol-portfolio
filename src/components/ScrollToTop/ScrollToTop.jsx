@@ -45,7 +45,8 @@ export const ScrollToTop=()=>{
       window.addEventListener("scroll", toggleVisible);
     
     return(
-      <>  <Desktop>      <Box className={styles.btn}>
+      <>  <Desktop>     
+         <Box className={styles.btn}>
          
         <FaArrowCircleUp
         

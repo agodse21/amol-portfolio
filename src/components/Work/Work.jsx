@@ -18,7 +18,7 @@ import foodRecipeImg from "../../Assets/projectImg/foodRecipe.jpg";
 import shopImg from "../../Assets/projectImg/shop.com.jpg";
 import StarWarImg from "../../Assets/projectImg/star war.jpg";
 import WeatherImg from "../../Assets/projectImg/weatherApp.jpg";
-import { MDBRipple } from "mdb-react-ui-kit";
+import LovodoImg from "../../Assets/projectImg/lovodo.jpg";
 import { useMediaQuery } from "react-responsive";
 
 const Desktop = ({ children }) => {
@@ -83,6 +83,138 @@ export const Work = () => {
                   w="300px"
                   borderRadius={5}
                   h="150px"
+                  src={LovodoImg}
+                ></Image>
+                <Heading mt={3} size="md">
+                  Lovodo.com Clone
+                </Heading>
+                <Box mt={3} textAlign="left">
+                  <Text fontSize="15px">
+                    LOVODA is a women's fashion brand for the newest & trending
+                    fashion accessories and online shop that offered high
+                    quality products at an affordable price.
+                  </Text>
+                  <Text fontSize="15px" mt={3}>
+                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
+                      Tech Stack :
+                    </span>{" "}
+                    React js | Redux | Javascript | CSS3 | Firebase | HTML5
+                  </Text>
+                  <Text fontSize="13px" mt={3}>
+                    A collaborative project built by a team of 4 executed in 5
+                    days.
+                  </Text>
+                  <Center>
+                    <Flex w="70%" mt={9} p={2}>
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/vkrajput26/-crazy-science-2420"
+                          >
+                            <GrGithub size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+
+                      <Spacer />
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://lovoda-clone-three.vercel.app/"
+                          >
+                            <GoLinkExternal size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+                    </Flex>
+                  </Center>
+                </Box>
+              </Box>
+              <Box
+                borderRadius={5}
+                p={5}
+                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
+                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+                height="auto"
+                className={styles.boxes}
+              >
+                <Image
+                  m="auto"
+                  w="300px"
+                  borderRadius={5}
+                  h="150px"
+                  src={WeatherImg}
+                ></Image>
+                <Heading mt={3} size="md">
+                  Weather App
+                </Heading>
+                <Box mt={3} textAlign="left">
+                  <Text fontSize="15px">
+                    Web application to show the current location's
+                    weather,search city weather and upcoming week weather
+                    forecast.showing the current map accourding to the location.
+                  </Text>
+                  <Text fontSize="15px" mt={3}>
+                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
+                      Tech Stack :
+                    </span>{" "}
+                    React js | Redux | HTML5 | CSS3 | Chakra-UI | Javascript |
+                    Weather-API
+                  </Text>
+                  {/* <Text fontSize="13px" mt={3}>
+                    A Solo project, built in 2 days.
+                  </Text> */}
+                  <Center>
+                    <Flex w="70%" mt="60px" p={2}>
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/agodse21/weather-app"
+                          >
+                            <GrGithub size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+
+                      <Spacer />
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://netlify-thinks-agodse9-gmail-com-is-great-686c3.netlify.app/"
+                          >
+                            <GoLinkExternal size="30px" />
+                          </a>{" "}
+                        </Center>
+                      </Box>
+                    </Flex>
+                  </Center>
+                </Box>
+              </Box>
+              <Box
+                className={styles.boxes}
+                borderRadius={5}
+                p={5}
+                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
+                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+                height="auto"
+              >
+                <Image
+                  m="auto"
+                  w="300px"
+                  borderRadius={5}
+                  h="150px"
                   src={bewakoofImg}
                 ></Image>
                 <Heading mt={3} size="md">
@@ -90,9 +222,10 @@ export const Work = () => {
                 </Heading>
                 <Box mt={3} textAlign="left">
                   <Text fontSize="15px">
-                    Bewakoof is Ecommerce site,You can shop
-                    cloths,accessories.Fully functional bewakoof clone made with
-                    the help of HTML,CSS and Javascript.
+                    Bewakoof is Ecommerce site for the newest & trending fashion
+                    accessories and online shop that offered high quality
+                    products at an affordable price. You can shop
+                    cloths,accessories.
                   </Text>
                   <Text fontSize="15px" mt={3}>
                     <span style={{ color: "#dc143c", fontWeight: "bold" }}>
@@ -105,7 +238,7 @@ export const Work = () => {
                     members.Team lead by me.
                   </Text>
                   <Center>
-                    <Flex w="70%" mt={9} p={2}>
+                    <Flex w="70%" mt="36px" p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -166,9 +299,9 @@ export const Work = () => {
                     </span>{" "}
                     HTML5 | CSS3 | React Js | Chakra UI | Javascript
                   </Text>
-                  <Text fontSize="13px" mt={3}>
+                  {/* <Text fontSize="13px" mt={3}>
                     A Individual project, built in 5 days.
-                  </Text>
+                  </Text> */}
                   <Center>
                     <Flex w="70%" mt={7} p={2}>
                       <Box className={styles.liveIcons}>
@@ -201,70 +334,7 @@ export const Work = () => {
                   </Center>
                 </Box>
               </Box>
-              <Box
-                borderRadius={5}
-                p={5}
-                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
-                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
-                height="auto"
-                className={styles.boxes}
-              >
-                <Image
-                  m="auto"
-                  w="300px"
-                  borderRadius={5}
-                  h="150px"
-                  src={WeatherImg}
-                ></Image>
-                <Heading mt={3} size="md">
-                  Weather App
-                </Heading>
-                <Box mt={3} textAlign="left">
-                  <Text fontSize="15px">
-                    You can see your current Weather or you can weather search
-                    by your city.
-                  </Text>
-                  <Text fontSize="15px" mt={3}>
-                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
-                      Tech Stack :
-                    </span>{" "}
-                    HTML5 | CSS3 | Javascript | weather API
-                  </Text>
-                  <Text fontSize="13px" mt={3}>
-                    A Solo project, built in 2 days.
-                  </Text>
-                  <Center>
-                    <Flex w="70%" mt="70px" p={2}>
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://github.com/agodse21/weather-app"
-                          >
-                            <GrGithub size="30px" />
-                          </a>
-                        </Center>
-                      </Box>
 
-                      <Spacer />
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://singular-florentine-142a57.netlify.app/"
-                          >
-                            <GoLinkExternal size="30px" />
-                          </a>{" "}
-                        </Center>
-                      </Box>
-                    </Flex>
-                  </Center>
-                </Box>
-              </Box>
               <Box
                 borderRadius={5}
                 p={5}
@@ -285,7 +355,8 @@ export const Work = () => {
                 </Heading>
                 <Box mt={3} textAlign="left">
                   <Text fontSize="15px">
-                    Search food recipes,see different recipes,Recipe of the day
+                    This is an food recipe app, you can Search food recipes,See
+                    different recipes,Recipe of the day
                   </Text>
                   <Text fontSize="15px" mt={3}>
                     <span style={{ color: "#dc143c", fontWeight: "bold" }}>
@@ -293,11 +364,11 @@ export const Work = () => {
                     </span>{" "}
                     HTML5 | CSS3 | Javascript
                   </Text>
-                  <Text fontSize="13px" mt={3}>
+                  {/* <Text fontSize="13px" mt={3}>
                     A Solo project, built in 2 days.
-                  </Text>
+                  </Text> */}
                   <Center>
-                    <Flex w="70%" mt="80px" p={2}>
+                    <Flex w="70%" mt="75px" p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -348,7 +419,8 @@ export const Work = () => {
                 </Heading>
                 <Box mt={3} textAlign="left">
                   <Text fontSize="15px">
-                    Search And see Star war Character description
+                    This a small mini project in that you can Search Star war
+                    Character And read the description of searched character.
                   </Text>
                   <Text fontSize="15px" mt={3}>
                     <span style={{ color: "#dc143c", fontWeight: "bold" }}>
@@ -356,11 +428,11 @@ export const Work = () => {
                     </span>{" "}
                     HTML5 | CSS3 | Javascript
                   </Text>
-                  <Text fontSize="13px" mt={3}>
+                  {/* <Text fontSize="13px" mt={3}>
                     A Solo project, built in 2 days.
-                  </Text>
+                  </Text> */}
                   <Center>
-                    <Flex w="70%" mt="80px" p={2}>
+                    <Flex w="70%" mt="35px" p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -381,7 +453,7 @@ export const Work = () => {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noreferrer"
-                            href="https://starlit-boba-47f65b.netlify.app/"
+                            href="https://unique-lolly-e04c94.netlify.app/"
                           >
                             <GoLinkExternal size="30px" />
                           </a>
@@ -433,6 +505,138 @@ export const Work = () => {
                   w="300px"
                   borderRadius={5}
                   h="150px"
+                  src={LovodoImg}
+                ></Image>
+                <Heading mt={3} size="md">
+                  Lovodo.com Clone
+                </Heading>
+                <Box mt={3} textAlign="left">
+                  <Text fontSize="15px">
+                    LOVODA is a women's fashion brand for the newest & trending
+                    fashion accessories and online shop that offered high
+                    quality products at an affordable price.
+                  </Text>
+                  <Text fontSize="15px" mt={3}>
+                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
+                      Tech Stack :
+                    </span>{" "}
+                    React js | Redux | Javascript | CSS3 | Firebase | HTML5
+                  </Text>
+                  <Text fontSize="13px" mt={3}>
+                    A collaborative project built by a team of 4 executed in 5
+                    days.
+                  </Text>
+                  <Center>
+                    <Flex w="70%" mt={9} p={2}>
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/vkrajput26/-crazy-science-2420"
+                          >
+                            <GrGithub size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+
+                      <Spacer />
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://lovoda-clone-three.vercel.app/"
+                          >
+                            <GoLinkExternal size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+                    </Flex>
+                  </Center>
+                </Box>
+              </Box>
+              <Box
+                borderRadius={5}
+                p={5}
+                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
+                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+                height="auto"
+                className={styles.boxes}
+              >
+                <Image
+                  m="auto"
+                  w="300px"
+                  borderRadius={5}
+                  h="150px"
+                  src={WeatherImg}
+                ></Image>
+                <Heading mt={3} size="md">
+                  Weather App
+                </Heading>
+                <Box mt={3} textAlign="left">
+                  <Text fontSize="15px">
+                    Web application to show the current location's
+                    weather,search city weather and upcoming week weather
+                    forecast.showing the current map accourding to the location.
+                  </Text>
+                  <Text fontSize="15px" mt={3}>
+                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
+                      Tech Stack :
+                    </span>{" "}
+                    React js | Redux | HTML5 | CSS3 | Chakra-UI | Javascript |
+                    Weather-API
+                  </Text>
+                  {/* <Text fontSize="13px" mt={3}>
+                    A Solo project, built in 2 days.
+                  </Text> */}
+                  <Center>
+                    <Flex w="70%" mt="60px" p={2}>
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/agodse21/weather-app"
+                          >
+                            <GrGithub size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+
+                      <Spacer />
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://netlify-thinks-agodse9-gmail-com-is-great-686c3.netlify.app/"
+                          >
+                            <GoLinkExternal size="30px" />
+                          </a>{" "}
+                        </Center>
+                      </Box>
+                    </Flex>
+                  </Center>
+                </Box>
+              </Box>
+              <Box
+                className={styles.boxes}
+                borderRadius={5}
+                p={5}
+                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
+                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+                height="auto"
+              >
+                <Image
+                  m="auto"
+                  w="300px"
+                  borderRadius={5}
+                  h="150px"
                   src={bewakoofImg}
                 ></Image>
                 <Heading mt={3} size="md">
@@ -440,9 +644,10 @@ export const Work = () => {
                 </Heading>
                 <Box mt={3} textAlign="left">
                   <Text fontSize="15px">
-                    Bewakoof is Ecommerce site,You can shop
-                    cloths,accessories.Fully functional bewakoof clone made with
-                    the help of HTML,CSS and Javascript.
+                    Bewakoof is Ecommerce site for the newest & trending fashion
+                    accessories and online shop that offered high quality
+                    products at an affordable price. You can shop
+                    cloths,accessories.
                   </Text>
                   <Text fontSize="15px" mt={3}>
                     <span style={{ color: "#dc143c", fontWeight: "bold" }}>
@@ -455,7 +660,7 @@ export const Work = () => {
                     members.Team lead by me.
                   </Text>
                   <Center>
-                    <Flex w="70%" mt={9} p={2}>
+                    <Flex w="70%" mt="36px" p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -516,11 +721,11 @@ export const Work = () => {
                     </span>{" "}
                     HTML5 | CSS3 | React Js | Chakra UI | Javascript
                   </Text>
-                  <Text fontSize="13px" mt={3}>
+                  {/* <Text fontSize="13px" mt={3}>
                     A Individual project, built in 5 days.
-                  </Text>
+                  </Text> */}
                   <Center>
-                    <Flex w="70%" mt="80px" p={2}>
+                    <Flex w="70%" mt={7} p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -551,70 +756,7 @@ export const Work = () => {
                   </Center>
                 </Box>
               </Box>
-              <Box
-                borderRadius={5}
-                p={5}
-                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
-                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
-                height="auto"
-                className={styles.boxes}
-              >
-                <Image
-                  m="auto"
-                  w="300px"
-                  borderRadius={5}
-                  h="150px"
-                  src={WeatherImg}
-                ></Image>
-                <Heading mt={3} size="md">
-                  Weather App
-                </Heading>
-                <Box mt={3} textAlign="left">
-                  <Text fontSize="15px">
-                    You can see your current Weather or you can weather search
-                    by your city.
-                  </Text>
-                  <Text fontSize="15px" mt={3}>
-                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
-                      Tech Stack :
-                    </span>{" "}
-                    HTML5 | CSS3 | Javascript | weather API
-                  </Text>
-                  <Text fontSize="13px" mt={3}>
-                    A Solo project, built in 2 days.
-                  </Text>
-                  <Center>
-                    <Flex w="70%" mt="70px" p={2}>
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://github.com/agodse21/weather-app"
-                          >
-                            <GrGithub size="30px" />
-                          </a>
-                        </Center>
-                      </Box>
 
-                      <Spacer />
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://singular-florentine-142a57.netlify.app/"
-                          >
-                            <GoLinkExternal size="30px" />
-                          </a>{" "}
-                        </Center>
-                      </Box>
-                    </Flex>
-                  </Center>
-                </Box>
-              </Box>
               <Box
                 borderRadius={5}
                 p={5}
@@ -635,7 +777,8 @@ export const Work = () => {
                 </Heading>
                 <Box mt={3} textAlign="left">
                   <Text fontSize="15px">
-                    Search food recipes,see different recipes,Recipe of the day
+                    This is an food recipe app, you can Search food recipes,See
+                    different recipes,Recipe of the day
                   </Text>
                   <Text fontSize="15px" mt={3}>
                     <span style={{ color: "#dc143c", fontWeight: "bold" }}>
@@ -643,11 +786,11 @@ export const Work = () => {
                     </span>{" "}
                     HTML5 | CSS3 | Javascript
                   </Text>
-                  <Text fontSize="13px" mt={3}>
+                  {/* <Text fontSize="13px" mt={3}>
                     A Solo project, built in 2 days.
-                  </Text>
+                  </Text> */}
                   <Center>
-                    <Flex w="70%" mt="80px" p={2}>
+                    <Flex w="70%" mt="75px" p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -698,7 +841,8 @@ export const Work = () => {
                 </Heading>
                 <Box mt={3} textAlign="left">
                   <Text fontSize="15px">
-                    Search And see Star war Character description
+                    This a small mini project in that you can Search Star war
+                    Character And read the description of searched character.
                   </Text>
                   <Text fontSize="15px" mt={3}>
                     <span style={{ color: "#dc143c", fontWeight: "bold" }}>
@@ -706,11 +850,11 @@ export const Work = () => {
                     </span>{" "}
                     HTML5 | CSS3 | Javascript
                   </Text>
-                  <Text fontSize="13px" mt={3}>
+                  {/* <Text fontSize="13px" mt={3}>
                     A Solo project, built in 2 days.
-                  </Text>
+                  </Text> */}
                   <Center>
-                    <Flex w="70%" mt="80px" p={2}>
+                    <Flex w="70%" mt="35px" p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -731,7 +875,7 @@ export const Work = () => {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noreferrer"
-                            href="https://starlit-boba-47f65b.netlify.app/"
+                            href="https://unique-lolly-e04c94.netlify.app/"
                           >
                             <GoLinkExternal size="30px" />
                           </a>
@@ -782,6 +926,138 @@ export const Work = () => {
                   w="300px"
                   borderRadius={5}
                   h="150px"
+                  src={LovodoImg}
+                ></Image>
+                <Heading mt={3} size="md">
+                  Lovodo.com Clone
+                </Heading>
+                <Box mt={3} textAlign="left">
+                  <Text fontSize="15px">
+                    LOVODA is a women's fashion brand for the newest & trending
+                    fashion accessories and online shop that offered high
+                    quality products at an affordable price.
+                  </Text>
+                  <Text fontSize="15px" mt={3}>
+                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
+                      Tech Stack :
+                    </span>{" "}
+                    React js | Redux | Javascript | CSS3 | Firebase | HTML5
+                  </Text>
+                  <Text fontSize="13px" mt={3}>
+                    A collaborative project built by a team of 4 executed in 5
+                    days.
+                  </Text>
+                  <Center>
+                    <Flex w="70%" mt={9} p={2}>
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/vkrajput26/-crazy-science-2420"
+                          >
+                            <GrGithub size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+
+                      <Spacer />
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://lovoda-clone-three.vercel.app/"
+                          >
+                            <GoLinkExternal size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+                    </Flex>
+                  </Center>
+                </Box>
+              </Box>
+              <Box
+                borderRadius={5}
+                p={5}
+                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
+                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+                height="auto"
+                className={styles.boxes}
+              >
+                <Image
+                  m="auto"
+                  w="300px"
+                  borderRadius={5}
+                  h="150px"
+                  src={WeatherImg}
+                ></Image>
+                <Heading mt={3} size="md">
+                  Weather App
+                </Heading>
+                <Box mt={3} textAlign="left">
+                  <Text fontSize="15px">
+                    Web application to show the current location's
+                    weather,search city weather and upcoming week weather
+                    forecast.showing the current map accourding to the location.
+                  </Text>
+                  <Text fontSize="15px" mt={3}>
+                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
+                      Tech Stack :
+                    </span>{" "}
+                    React js | Redux | HTML5 | CSS3 | Chakra-UI | Javascript |
+                    Weather-API
+                  </Text>
+                  {/* <Text fontSize="13px" mt={3}>
+                    A Solo project, built in 2 days.
+                  </Text> */}
+                  <Center>
+                    <Flex w="70%" mt="60px" p={2}>
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/agodse21/weather-app"
+                          >
+                            <GrGithub size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+
+                      <Spacer />
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://netlify-thinks-agodse9-gmail-com-is-great-686c3.netlify.app/"
+                          >
+                            <GoLinkExternal size="30px" />
+                          </a>{" "}
+                        </Center>
+                      </Box>
+                    </Flex>
+                  </Center>
+                </Box>
+              </Box>
+              <Box
+                className={styles.boxes}
+                borderRadius={5}
+                p={5}
+                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
+                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+                height="auto"
+              >
+                <Image
+                  m="auto"
+                  w="300px"
+                  borderRadius={5}
+                  h="150px"
                   src={bewakoofImg}
                 ></Image>
                 <Heading mt={3} size="md">
@@ -789,9 +1065,10 @@ export const Work = () => {
                 </Heading>
                 <Box mt={3} textAlign="left">
                   <Text fontSize="15px">
-                    Bewakoof is Ecommerce site,You can shop
-                    cloths,accessories.Fully functional bewakoof clone made with
-                    the help of HTML,CSS and Javascript.
+                    Bewakoof is Ecommerce site for the newest & trending fashion
+                    accessories and online shop that offered high quality
+                    products at an affordable price. You can shop
+                    cloths,accessories.
                   </Text>
                   <Text fontSize="15px" mt={3}>
                     <span style={{ color: "#dc143c", fontWeight: "bold" }}>
@@ -804,7 +1081,7 @@ export const Work = () => {
                     members.Team lead by me.
                   </Text>
                   <Center>
-                    <Flex w="70%" mt={9} p={2}>
+                    <Flex w="70%" mt="36px" p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -865,9 +1142,9 @@ export const Work = () => {
                     </span>{" "}
                     HTML5 | CSS3 | React Js | Chakra UI | Javascript
                   </Text>
-                  <Text fontSize="13px" mt={3}>
+                  {/* <Text fontSize="13px" mt={3}>
                     A Individual project, built in 5 days.
-                  </Text>
+                  </Text> */}
                   <Center>
                     <Flex w="70%" mt={7} p={2}>
                       <Box className={styles.liveIcons}>
@@ -900,70 +1177,7 @@ export const Work = () => {
                   </Center>
                 </Box>
               </Box>
-              <Box
-                borderRadius={5}
-                p={5}
-                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
-                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
-                height="auto"
-                className={styles.boxes}
-              >
-                <Image
-                  m="auto"
-                  w="300px"
-                  borderRadius={5}
-                  h="150px"
-                  src={WeatherImg}
-                ></Image>
-                <Heading mt={3} size="md">
-                  Weather App
-                </Heading>
-                <Box mt={3} textAlign="left">
-                  <Text fontSize="15px">
-                    You can see your current Weather or you can weather search
-                    by your city.
-                  </Text>
-                  <Text fontSize="15px" mt={3}>
-                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
-                      Tech Stack :
-                    </span>{" "}
-                    HTML5 | CSS3 | Javascript | weather API
-                  </Text>
-                  <Text fontSize="13px" mt={3}>
-                    A Solo project, built in 2 days.
-                  </Text>
-                  <Center>
-                    <Flex w="70%" mt="70px" p={2}>
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://github.com/agodse21/weather-app"
-                          >
-                            <GrGithub size="30px" />
-                          </a>
-                        </Center>
-                      </Box>
 
-                      <Spacer />
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://singular-florentine-142a57.netlify.app/"
-                          >
-                            <GoLinkExternal size="30px" />
-                          </a>{" "}
-                        </Center>
-                      </Box>
-                    </Flex>
-                  </Center>
-                </Box>
-              </Box>
               <Box
                 borderRadius={5}
                 p={5}
@@ -984,7 +1198,8 @@ export const Work = () => {
                 </Heading>
                 <Box mt={3} textAlign="left">
                   <Text fontSize="15px">
-                    Search food recipes,see different recipes,Recipe of the day
+                    This is an food recipe app, you can Search food recipes,See
+                    different recipes,Recipe of the day
                   </Text>
                   <Text fontSize="15px" mt={3}>
                     <span style={{ color: "#dc143c", fontWeight: "bold" }}>
@@ -992,11 +1207,11 @@ export const Work = () => {
                     </span>{" "}
                     HTML5 | CSS3 | Javascript
                   </Text>
-                  <Text fontSize="13px" mt={3}>
+                  {/* <Text fontSize="13px" mt={3}>
                     A Solo project, built in 2 days.
-                  </Text>
+                  </Text> */}
                   <Center>
-                    <Flex w="70%" mt="80px" p={2}>
+                    <Flex w="70%" mt="75px" p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -1047,7 +1262,8 @@ export const Work = () => {
                 </Heading>
                 <Box mt={3} textAlign="left">
                   <Text fontSize="15px">
-                    Search And see Star war Character description
+                    This a small mini project in that you can Search Star war
+                    Character And read the description of searched character.
                   </Text>
                   <Text fontSize="15px" mt={3}>
                     <span style={{ color: "#dc143c", fontWeight: "bold" }}>
@@ -1055,11 +1271,11 @@ export const Work = () => {
                     </span>{" "}
                     HTML5 | CSS3 | Javascript
                   </Text>
-                  <Text fontSize="13px" mt={3}>
+                  {/* <Text fontSize="13px" mt={3}>
                     A Solo project, built in 2 days.
-                  </Text>
+                  </Text> */}
                   <Center>
-                    <Flex w="70%" mt="80px" p={2}>
+                    <Flex w="70%" mt="35px" p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -1080,7 +1296,7 @@ export const Work = () => {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noreferrer"
-                            href="https://starlit-boba-47f65b.netlify.app/"
+                            href="https://unique-lolly-e04c94.netlify.app/"
                           >
                             <GoLinkExternal size="30px" />
                           </a>

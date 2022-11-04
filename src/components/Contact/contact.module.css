@@ -22,7 +22,7 @@ transform: scale(1.1);
 }
 .Heading{
     margin: auto;
-    width: 52%;
+    width: 58%;
     border-bottom: 4px solid #dc143c;
 }
 .TabHeading{
@@ -33,7 +33,7 @@ transform: scale(1.1);
 }
 .MobHeading{
   margin: auto;
-    width: 85%;
+    width: 88%;
     border-bottom: 4px solid #dc143c;
 
 }

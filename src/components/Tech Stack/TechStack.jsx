@@ -220,6 +220,7 @@ import {
           </Center>
         </Box>
         </Desktop>
+      
         <Tablet>
         <Box pt={10} pb={10} textAlign="center" fontFamily="poppins">
           <Heading

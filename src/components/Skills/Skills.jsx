@@ -161,6 +161,7 @@ export const Skills = () => {
         </Stack>
       </Box>
       </Desktop>
+      
       <Tablet>
       <Box pt={15} pb={10} textAlign="center" fontFamily="poppins"  bg={colorMode === "light" ? "#edf2f8" : "#0f1624"}>
         <Heading

@@ -3,7 +3,7 @@
     flex-direction: column;
     position: fixed;
     bottom: 0;
-    left: 2vw;
+    left: 1vw;
     gap: 1em;
     width: fit-content;
     z-index: 99;

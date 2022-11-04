@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/amol-portfolio/static/css/main.db2f3750.css",
-    "main.js": "/amol-portfolio/static/js/main.b2a51f69.js",
+    "main.css": "/amol-portfolio/static/css/main.4511b4e5.css",
+    "main.js": "/amol-portfolio/static/js/main.18031ec7.js",
     "static/js/787.1ed0c42c.chunk.js": "/amol-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/foodRecipe.jpg": "/amol-portfolio/static/media/foodRecipe.d702886d447a3e7a0c87.jpg",
     "static/media/shop.com.jpg": "/amol-portfolio/static/media/shop.com.cfe7e8f0b5e79400cae3.jpg",
     "static/media/creativity1.png": "/amol-portfolio/static/media/creativity1.445675a0a00c2757a1d6.png",
-    "static/media/weatherApp.jpg": "/amol-portfolio/static/media/weatherApp.abf91b6f554dfe567a97.jpg",
+    "static/media/weatherApp.jpg": "/amol-portfolio/static/media/weatherApp.4f8c9cd5965b42e0c40c.jpg",
     "static/media/bewakoof.jpg": "/amol-portfolio/static/media/bewakoof.f67c32ac7dae9636f95d.jpg",
     "static/media/PicsArt_12-13-12.59.47.jpg": "/amol-portfolio/static/media/PicsArt_12-13-12.59.47.8684d9bd1c5dab2d66ce.jpg",
     "static/media/timeManage.png": "/amol-portfolio/static/media/timeManage.4644a4b2b8ed5f538eec.png",
+    "static/media/lovodo.jpg": "/amol-portfolio/static/media/lovodo.da82a7a7314e3625ee25.jpg",
     "static/media/star war.jpg": "/amol-portfolio/static/media/star war.53dc05ffce4edc1be05b.jpg",
     "static/media/projectManagement.png": "/amol-portfolio/static/media/projectManagement.56532bbb9da241b0f1c8.png",
     "static/media/backend.png": "/amol-portfolio/static/media/backend.cd86763da06f05c86ca6.png",
@@ -34,12 +35,12 @@
     "static/media/express-js-icon.svg": "/amol-portfolio/static/media/express-js-icon.ea97b712340ffb8f11d85ccb96309507.svg",
     "static/media/css.svg": "/amol-portfolio/static/media/css.43b6f4bdbc0f36b9f2dd15c6ebbcea15.svg",
     "static/media/html.svg": "/amol-portfolio/static/media/html.6a342d61e4fe710cf3e5c05b65b0ac87.svg",
-    "main.db2f3750.css.map": "/amol-portfolio/static/css/main.db2f3750.css.map",
-    "main.b2a51f69.js.map": "/amol-portfolio/static/js/main.b2a51f69.js.map",
+    "main.4511b4e5.css.map": "/amol-portfolio/static/css/main.4511b4e5.css.map",
+    "main.18031ec7.js.map": "/amol-portfolio/static/js/main.18031ec7.js.map",
     "787.1ed0c42c.chunk.js.map": "/amol-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db2f3750.css",
-    "static/js/main.b2a51f69.js"
+    "static/css/main.4511b4e5.css",
+    "static/js/main.18031ec7.js"
   ]
 }

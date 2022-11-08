@@ -52,7 +52,7 @@ export const Work = () => {
           textAlign="center"
         >
           <Heading
-            data-aos="fade-up"
+      
             className={styles.Heading}
             size="2xl"
             fontFamily="poppins"
@@ -62,21 +62,24 @@ export const Work = () => {
           </Heading>
           <Center>
             <SimpleGrid
-              data-aos="fade-up"
+        
               w="75%"
               ml={20}
               mt={20}
               mr={10}
               columns={[1, 2, 3]}
               spacing="60px"
+             
             >
               <Box
                 className={styles.boxes}
                 borderRadius={5}
+                // h={800}
                 p={5}
                 bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
                 color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
                 height="auto"
+
               >
                 <Image
                   m="auto"
@@ -238,7 +241,7 @@ export const Work = () => {
                     members.Team lead by me.
                   </Text>
                   <Center>
-                    <Flex w="70%" mt="36px" p={2}>
+                    <Flex w="70%" mt="50px" p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -432,7 +435,7 @@ export const Work = () => {
                     A Solo project, built in 2 days.
                   </Text> */}
                   <Center>
-                    <Flex w="70%" mt="35px" p={2}>
+                    <Flex w="70%" mt="75px" p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -477,7 +480,7 @@ export const Work = () => {
           textAlign="center"
         >
           <Heading
-            data-aos="fade-up"
+            
             className={styles.TabHeading}
             size="xl"
             fontFamily="poppins"
@@ -486,7 +489,7 @@ export const Work = () => {
           </Heading>
           <Center>
             <SimpleGrid
-              data-aos="fade-up"
+              
               w="75%"
               mt={20}
               columns={2}
@@ -725,7 +728,7 @@ export const Work = () => {
                     A Individual project, built in 5 days.
                   </Text> */}
                   <Center>
-                    <Flex w="70%" mt={7} p={2}>
+                    <Flex w="70%" mt="100px" p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -891,6 +894,7 @@ export const Work = () => {
       </Tablet>
       <Mobile>
         <Box
+        w="120%"
           fontFamily="poppins"
           pt={5}
           pb={20}
@@ -898,7 +902,7 @@ export const Work = () => {
           textAlign="center"
         >
           <Heading
-            data-aos="fade-up"
+            
             className={styles.MobHeading}
             size="xl"
             fontFamily="poppins"
@@ -907,7 +911,7 @@ export const Work = () => {
           </Heading>
           <Center>
             <SimpleGrid
-              data-aos="fade-up"
+              
               w="75%"
               mt={25}
               columns={1}

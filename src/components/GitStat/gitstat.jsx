@@ -46,6 +46,7 @@ export const GitStat = () => {
     <Flex mt ={3} justifyContent={"center"} ><img className={styles.box} align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=agodse21&theme=vision-friendly-dark&show_icons=true&locale=en&layout=compact" alt="agodse21" /></Flex>
     </Box></Tablet>
     <Mobile>
+      <Box w="120%">
     <Box m="auto"  w="68%" mt={50} mb={50}>
     
     <VStack justifyContent={"center"} >
@@ -55,7 +56,7 @@ export const GitStat = () => {
    
     </VStack>
     <Flex mt ={2} justifyContent={"center"} ><img className={styles.box} align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=agodse21&theme=vision-friendly-dark&show_icons=true&locale=en&layout=compact" alt="agodse21" /></Flex>
-    </Box>
+    </Box></Box>
     </Mobile>
     {/* <Default>Not mobile (desktop or laptop or tablet)</Default> */}
     </>)

@@ -27,11 +27,11 @@ export const ScrollToTop=()=>{
     const [visible, setVisible] = useState(false);
 
     const toggleVisible = () => {
-      // const { colorMode, toggleColorMode } = useColorMode();
+     
       const scrolled = document.documentElement.scrollTop;
-      if (scrolled > 300) {
+      if (scrolled > 10) {
         setVisible(true);
-      } else if (scrolled <= 300) {
+      } else if (scrolled <10) {
         setVisible(false);
       }
     };

@@ -88,7 +88,7 @@ const {scrollsection,about,work,conatct,home,tech,skills}=props;
 <Desktop> <Box   fontFamily="poppins" style={Nav_style} bgColor={colorMode === 'light' ? '#edf2f8' : '#0f1624'} fontSize="1.2em" 
       zIndex="2" position="absolute" justifyContent="center" alignItems="center">
       
-        <Box   fontFamily="poppins" ref={home} w="95%">
+        <Box   fontFamily="poppins" ref={home} m={"auto"} w="95%">
           <Flex justifyContent="space-between" alignItems="center">
           <Link to="/amol-portfolio">
             <Box w="15%" onClick={()=>handleOnscrollMobile(home)}><Flex justifyContent="space-between">
@@ -102,23 +102,44 @@ const {scrollsection,about,work,conatct,home,tech,skills}=props;
             </Box>
           </Link>
             <Spacer />
-            <Box w="50%" >
-              <Flex justifyContent="space-evenly">
+            <Box w="62%" >
+              <Flex justifyContent="space-between">
               
 
 {links.map((link) => (
        
-           <Heading   fontFamily="poppins" cursor="pointer" onClick={()=>scrollsection(link.path)} size="sm" p="10px"  _hover={{
+           <Text  fontWeight={"bold"} fontSize={"14px"} fontFamily="poppins" cursor="pointer" onClick={()=>scrollsection(link.path)}  p="10px"  _hover={{
             backgroundColor: "#dc143c",
             padding: '10px',
             borderRadius: "7px",
             color: "white",
           
-          }}>  {link.title}</Heading>
+          }}>  {link.title}</Text>
          
         
       ))}
-                <Button  onClick={toggleColorMode} color={colorMode === 'light' ? '#0f1624' : 'facebook'} >
+       <a href="Amol_Resume.pdf" download>
+                    <Button
+                    //  mt={1}
+                      h="40px"
+                      fontFamily="Poppins"
+                      w="100px"
+                      // fontWeight="bold"
+                      fontSize="16px"
+                      color="white"
+                      bg="#dc143c"
+                      _hover={{
+                        background: "transparent",
+                        color: "#dc143c",
+                        border: "2px solid #dc143c",
+                      }}
+                    >
+                      {/* <Icon size="" as={ChevronRightIcon} /> */}
+                      RESUME
+                    </Button>
+                  </a>
+                <Button mr={-5} 
+                onClick={toggleColorMode} color={colorMode === 'light' ? '#0f1624' : 'facebook'} >
                   {colorMode === 'light' ? <Icon as={MoonIcon} /> : <Icon as={SunIcon} />}
                 </Button>
               </Flex>
@@ -131,8 +152,9 @@ const {scrollsection,about,work,conatct,home,tech,skills}=props;
 
 </Desktop>
 <Tablet>
-<Box zIndex="2" className={styles.tab} bgColor={colorMode === 'light' ? '#edf2f8' : '#0f1624'} fontSize="1.2em" z-index="999" justifyContent="center" alignItems="center">
-          <Box ref={home} w="80%">
+<Box zIndex="2" className={styles.tab} bgColor={colorMode === 'light' ? '#edf2f8' : '#0f1624'}
+ fontSize="1.2em" z-index="999" justifyContent="center" alignItems="center">
+          <Box ref={home} w="95%">
             
             <Flex justifyContent="space-between" alignItems="center">
               <Link to="/amol-portfolio">
@@ -203,8 +225,29 @@ const {scrollsection,about,work,conatct,home,tech,skills}=props;
           
           }}>  {link.title}</Heading>
          
-        </Center>
+         </Center>
       ))}
+      
+      <Center><a href="Amol_Resume.pdf" download>
+                    <Button
+                     mt={7}
+                      h="40px"
+                      fontFamily="Poppins"
+                      w="100px"
+                      // fontWeight="bold"
+                      fontSize="16px"
+                      color="white"
+                      bg="#dc143c"
+                      _hover={{
+                        background: "transparent",
+                        color: "#dc143c",
+                        border: "2px solid #dc143c",
+                      }}
+                    >
+                      {/* <Icon size="" as={ChevronRightIcon} /> */}
+                      RESUME
+                    </Button>
+                  </a></Center>
 
           
           </DrawerBody>
@@ -293,7 +336,26 @@ const {scrollsection,about,work,conatct,home,tech,skills}=props;
          
         </Center>
       ))}
-
+ <Center><a href="Amol_Resume.pdf" download>
+                    <Button
+                     mt={7}
+                      h="40px"
+                      fontFamily="Poppins"
+                      w="100px"
+                      // fontWeight="bold"
+                      fontSize="16px"
+                      color="white"
+                      bg="#dc143c"
+                      _hover={{
+                        background: "transparent",
+                        color: "#dc143c",
+                        border: "2px solid #dc143c",
+                      }}
+                    >
+                      {/* <Icon size="" as={ChevronRightIcon} /> */}
+                      RESUME
+                    </Button>
+                  </a></Center>
           
           </DrawerBody>
 

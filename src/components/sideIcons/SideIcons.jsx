@@ -50,7 +50,7 @@ return(<><Desktop>
 </Box>
   </Desktop>
   <Tablet>
-  <Box className={styles.sideicon}>
+  <Box className={styles.mobicon}>
 
 
 <a className={styles.SocialIcon} target="_blank" href="mailto:agodse9@gmail.com">
@@ -75,7 +75,7 @@ return(<><Desktop>
 
   </Tablet>
   <Mobile>
-  <Box className={styles.sideicon}>
+  <Box className={styles.mobicon}>
 
 
 <a className={styles.SocialIcon} target="_blank" href="mailto:agodse9@gmail.com">

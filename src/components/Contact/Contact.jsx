@@ -113,7 +113,7 @@ export const Contact = () => {
          
         >
           <Heading
-            data-aos="zoom-in"
+            
             className={styles.Heading}
             mt={5}
             size="2xl"
@@ -125,7 +125,7 @@ export const Contact = () => {
           </Heading>
           <Flex ml={20} mt={10} mr={10} alignItems="center">
             <Center>
-              <Box data-aos="zoom-in" ml={20}>
+              <Box  ml={20}>
                 <Center>
                   <Box>
                     <Flex alignItems="center">
@@ -291,7 +291,7 @@ export const Contact = () => {
               {/* <Box w="50%" ml={10} textAlign="left" fontFamily="poppins" mr={10}> */}
               <Center>
                 {" "}
-                <Box data-aos="zoom-in" ml={10} className={styles.img}>
+                <Box  ml={10} className={styles.img}>
                   {" "}
                 </Box>
               </Center>
@@ -315,7 +315,7 @@ export const Contact = () => {
          
         >
           <Heading
-            data-aos="zoom-in"
+            
             className={styles.TabHeading}
             mt={5}
            
@@ -327,7 +327,7 @@ export const Contact = () => {
           </Heading>
           <Center>          <Stack  mt={10}  alignItems="center">
             <Center>
-              <Box data-aos="zoom-in" >
+              <Box  >
                 <Center>
                   <Box>
                     <Stack alignItems="center">
@@ -477,7 +477,7 @@ export const Contact = () => {
             
             <Stack  w="70%" mt={10} >
                <Center>
-                 <Box data-aos="zoom-in"  className={styles.img}>
+                 <Box   className={styles.img}>
                   {" "}
                 </Box>
               </Center>
@@ -497,13 +497,14 @@ export const Contact = () => {
       <Mobile>
         <Box
           pt={10}
+          w="120%"
           pb={10}
           fontFamily="poppins"
           textAlign="center"
          
         >
           <Heading
-            data-aos="zoom-in"
+            
             className={styles.MobHeading}
             mt={5}
             size="md"
@@ -515,7 +516,7 @@ export const Contact = () => {
           </Heading>
           <Center>          <Stack  mt={10}  alignItems="center">
             <Center>
-              <Box data-aos="zoom-in" >
+              <Box  >
                 <Center>
                   <Box>
                     <Stack alignItems="center">
@@ -665,7 +666,7 @@ export const Contact = () => {
             
             <Stack  w="70%" mt={10} >
                <Center>
-                 <Box data-aos="zoom-in"  className={styles.img}>
+                 <Box   className={styles.img}>
                   {" "}
                 </Box>
               </Center>

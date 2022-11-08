@@ -8,6 +8,21 @@
     width: fit-content;
     z-index: 99;
 }
+
+.mobicon{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    left: 3vw;
+    gap: 1em;
+    width: fit-content;
+    z-index: 99;
+}
+.mobicon:hover{
+    color: #dc143c;
+    transform: translateY(-5px);
+}
 .SocialIcon:hover{
     color: #dc143c;
     transform: translateY(-5px);

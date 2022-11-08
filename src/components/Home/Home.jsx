@@ -73,7 +73,7 @@ export const Home = ({ props }) => {
           
               <Box
           
-                data-aos="zoom-in"
+                
                 h="640px"
                p={5}
               w="50%"
@@ -144,7 +144,7 @@ export const Home = ({ props }) => {
                 </Box>
               </Box>
             
-            <Box data-aos="zoom-in"   w="50%">
+            <Box    w="50%">
               <Flex alignItems="center">
                 <HeaderSection />
               </Flex>
@@ -275,7 +275,7 @@ export const Home = ({ props }) => {
       </Tablet>
       <Mobile>
         <Box
-          w="100%"
+          w="120%"
           position="relative"
           zIndex="1"
           bg={colorMode === "light" ? "#edf2f8" : "#0f1624"}

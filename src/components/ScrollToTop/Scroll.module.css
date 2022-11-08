@@ -14,8 +14,8 @@ border-radius: 50%;
 }
 .Mobbtn{
   position: fixed;
-  left: 92vw;
-  bottom: 4vw;
+  left: 110vw;
+  bottom: 8vw;
   height: 1em;
   font-size: 2rem;
   z-index: 99;

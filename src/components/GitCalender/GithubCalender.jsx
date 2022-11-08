@@ -37,7 +37,7 @@ export const GithubCalender = () => {
       // / mt="15px"
       m="auto"
        mb="25px"
-          data-aos="flip-down"
+          // 
           className={styles.Heading}
           size="xl"
           fontFamily="poppins"
@@ -47,14 +47,18 @@ export const GithubCalender = () => {
           {" "}
            Github<span style={{ color: "#dc143c" }}> Activity </span> 
         </Heading>
-      <Center className={styles.boxes} mt={10}  data-aos="flip-down">
+      <Center className={styles.boxes} mt={10}  
+      // 
+      >
 
       <GitHubCalendar username="agodse21" />
       </Center>
       <Box mt="40px">
      
         <Center >
-          <Flex w="55%"  data-aos="flip-down" justifyContent="space-between">
+          <Flex w="55%"  
+          
+           justifyContent="space-between">
             <Box>  <Flex className={styles.texts} alignItems="center"><FaCode size="30px" /> <Text ml={5}>1200+ Hours Practical Coding</Text></Flex>
         
             <Flex className={styles.texts} mt={5} alignItems="center"><RiLightbulbFlashLine size="30px" /> <Text ml={5}>300+ Hours Data Structures & Algorithms</Text></Flex>
@@ -84,7 +88,7 @@ export const GithubCalender = () => {
        <Heading 
       // / mt="15px"
        mb="25px"
-          data-aos="flip-down"
+         
           className={styles.TabHeading}
           size="xl"
           fontFamily="poppins"
@@ -92,14 +96,15 @@ export const GithubCalender = () => {
           {" "}
            Github<span style={{ color: "#dc143c" }}> Activity </span> 
         </Heading>
-      <Center className={styles.boxes} w="80%" m="auto" mt={10}  data-aos="flip-down">
+      <Center className={styles.boxes} w="80%" m="auto" mt={10}  >
 
       <GitHubCalendar username="agodse21" />
       </Center>
       <Box mt="40px">
      
         <Center >
-          <Flex w="75%"  data-aos="flip-down" justifyContent="space-between">
+          <Flex w="75%"  
+          justifyContent="space-between">
             <Box>  <Flex className={styles.texts} alignItems="center"><FaCode size="30px" /> <Text ml={5}>1200+ Hours Practical Coding</Text></Flex>
         
             <Flex className={styles.texts} mt={5} alignItems="center"><RiLightbulbFlashLine size="30px" /> <Text ml={5}>300+ Hours Data Structures & Algorithms</Text></Flex>
@@ -121,12 +126,12 @@ export const GithubCalender = () => {
     </Box>
   </Tablet>
   <Mobile>
-  <Box mt="-50px" mb="30px">
+  <Box w="120%" mt="-50px" mb="30px">
     {/* <Box bgColor={colorMode === 'light' ? 'black' : 'white'} className={styles.line}></Box> */}
        <Heading 
       // / mt="15px"
        mb="25px"
-          data-aos="flip-down"
+          
           className={styles.MobHeading}
           size="xl"
           fontFamily="poppins"
@@ -134,14 +139,14 @@ export const GithubCalender = () => {
           {" "}
            Github<span style={{ color: "#dc143c" }}> Activity </span> 
         </Heading>
-      <Center w="90%" m="auto" className={styles.boxes} mt={10}  data-aos="flip-down">
+      <Center w="90%" m="auto" className={styles.boxes} mt={10}  >
 
       <GitHubCalendar  username="agodse21" />
       </Center>
       <Box mt="40px">
      
         <Center >
-          <Flex w="95%"  data-aos="flip-down" justifyContent="space-between">
+          <Flex w="95%"  justifyContent="space-between">
             <Box>  <Flex className={styles.texts} alignItems="center"><FaCode size="15px" /> <Text fontSize="12px" ml={2}>1200+ Hours Practical Coding</Text></Flex>
       
             <Flex class0ame={styles.texts} mt={5} alignItems="center"><RiLightbulbFlashLine size="15px" /> <Text fontSize="12px" ml={2}>300+ Hours Data Structures & Algorithms</Text></Flex>

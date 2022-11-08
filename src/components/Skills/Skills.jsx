@@ -54,7 +54,7 @@ export const Skills = () => {
     <Desktop>
       <Box  pt={5} pb={10} textAlign="center" fontFamily="poppins"  bg={colorMode === "light" ? "#edf2f8" : "#0f1624"}>
         <Heading 
-          data-aos="flip-down"
+          // 
           className={styles.Heading}
           mt={5}
           size="2xl"
@@ -63,7 +63,9 @@ export const Skills = () => {
           {" "}
            My<span style={{ color: "#dc143c" }}> Skills </span> 
         </Heading>
-        <Stack data-aos="zoom-out-right" w="100%" m="auto" align="center">
+        <Stack
+        //  
+         w="100%" m="auto" align="center">
          
 
 <Box mt="40px" >
@@ -165,7 +167,7 @@ export const Skills = () => {
       <Tablet>
       <Box pt={15} pb={10} textAlign="center" fontFamily="poppins"  bg={colorMode === "light" ? "#edf2f8" : "#0f1624"}>
         <Heading
-          data-aos="flip-down"
+          
           className={styles.TabHeading}
           mt={10}
           size="2xl"
@@ -175,7 +177,7 @@ export const Skills = () => {
            My<span style={{ color: "#dc143c" }}> Skills </span> 
         </Heading>
         <Center>
-        <Stack data-aos="zoom-out-right" w="80%" m="auto" align="center">
+        <Stack  w="80%" m="auto" align="center">
          
 
 <Box mt="40px" >
@@ -275,9 +277,9 @@ export const Skills = () => {
       </Box>
       </Tablet>
       <Mobile>
-      <Box pt={15} pb={10} textAlign="center" fontFamily="poppins"  bg={colorMode === "light" ? "#edf2f8" : "#0f1624"}>
+      <Box w="120%" pt={15} pb={10} textAlign="center" fontFamily="poppins"  bg={colorMode === "light" ? "#edf2f8" : "#0f1624"}>
         <Heading
-          data-aos="flip-down"
+          
           className={styles.MobHeading}
           mt={10}
           size="2xl"
@@ -287,7 +289,7 @@ export const Skills = () => {
            My<span style={{ color: "#dc143c" }}> Skills </span> 
         </Heading>
         <Center>
-        <Stack data-aos="zoom-out-right" w="80%" m="auto" align="center">
+        <Stack  w="80%" m="auto" align="center">
          
 
          <Box mt="40px" >

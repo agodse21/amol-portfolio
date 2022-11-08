@@ -55,7 +55,7 @@ import {
       <Desktop>
         <Box pt={10} pb={10} textAlign="center" fontFamily="poppins">
           <Heading
-            data-aos="flip-down"
+           
             className={styles.Heading}
             mt={10}
             size="2xl"
@@ -66,7 +66,7 @@ import {
           </Heading>
           <Center>
             <Tabs
-              data-aos="flip-down"
+             
               w="80%"
               size="sm"
               mt={10}
@@ -107,7 +107,7 @@ import {
                 <TabPanel>
                   <Box
                     mt="50px"
-                    data-aos="flip-down"
+                   
                     fontFamily="poppins"
                     className="skill--scroll"
                   >
@@ -167,7 +167,7 @@ import {
                 <TabPanel>
                   <Box
                     mt="50px"
-                    data-aos="flip-down"
+                   
                     fontFamily="poppins"
                     className="skill--scroll"
                   >
@@ -224,7 +224,7 @@ import {
         <Tablet>
         <Box pt={10} pb={10} textAlign="center" fontFamily="poppins">
           <Heading
-            data-aos="flip-down"
+           
             className={styles.TabHeading}
             mt={10}
             size="2xl"
@@ -235,7 +235,7 @@ import {
           </Heading>
           <Center>
             <Tabs
-              data-aos="flip-down"
+             
               w="90%"
               size="sm"
               mt={10}
@@ -276,7 +276,7 @@ import {
                 <TabPanel>
                   <Box
                     mt="50px"
-                    data-aos="flip-down"
+                   
                     fontFamily="poppins"
                     className="skill--scroll"
                   >
@@ -330,7 +330,7 @@ import {
                 <TabPanel>
                   <Box
                     mt="50px"
-                    data-aos="flip-down"
+                   
                     fontFamily="poppins"
                     className="skill--scroll"
                   >
@@ -386,9 +386,9 @@ import {
         </Box>
         </Tablet>
         <Mobile>
-        <Box pt={10} pb={10} textAlign="center" fontFamily="poppins">
+        <Box w="120%" pt={10} pb={10} textAlign="center" fontFamily="poppins">
           <Heading
-            data-aos="flip-down"
+           
             className={styles.MobHeading}
             mt={10}
             size="2xl"
@@ -399,7 +399,7 @@ import {
           </Heading>
           <Center>
             <Tabs
-              data-aos="flip-down"
+             
               w="90%"
               size="sm"
               mt={10}
@@ -440,7 +440,7 @@ import {
                 <TabPanel>
                   <Box
                     mt="50px"
-                    data-aos="flip-down"
+                   
                     fontFamily="poppins"
                     className="skill--scroll"
                   >
@@ -494,7 +494,7 @@ import {
                 <TabPanel>
                   <Box
                     mt="50px"
-                    data-aos="flip-down"
+                   
                     fontFamily="poppins"
                     className="skill--scroll"
                   >

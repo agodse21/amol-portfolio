@@ -22,7 +22,8 @@ import { Skills } from "../Skills/Skills";
 import { Work } from "../Work/Work";
 import { Contact } from "../Contact/Contact";
 import { ChevronRightIcon } from "@chakra-ui/icons";
-// import resume from ""
+import AmolResume from "../../Assets/Amol_Resume.pdf"
+
 import { useMediaQuery } from "react-responsive";
 import {TechStack} from "../Tech Stack/TechStack";
 import { GithubCalender } from "../GitCalender/GithubCalender";
@@ -119,7 +120,7 @@ export const Home = ({ props }) => {
                     />
                   </Heading>
 
-                  <a href="Amol_Resume.pdf" download>
+                  <a href={AmolResume} target="_blank" download>
                     <Button
                       mt={10}
                       h="50px"
@@ -229,7 +230,7 @@ export const Home = ({ props }) => {
         />
       </Heading>
       <Center>
-      <a href="Amol_Resume.pdf" download>
+      <a href={AmolResume} rel="noopener noreferrer"  target="_blank">
                     <Button
                       mt={10}
                       h="40px"
@@ -329,7 +330,7 @@ export const Home = ({ props }) => {
         />
       </Heading>
       <Center>
-      <a href="Amol_Resume.pdf" download>
+      <a href={AmolResume} rel="noopener noreferrer"  target="_blank">
                     <Button
                       mt={10}
                       h="40px"

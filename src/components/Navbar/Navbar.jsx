@@ -9,7 +9,7 @@ import HeaderSection from "../Home/HeaderS";
 import { MdMenu } from "react-icons/md";
 import React, { useRef } from "react";
 import { HashLink } from 'react-router-hash-link';
-
+import AmolResume from "../../Assets/Amol_Resume.pdf"
 import { useMediaQuery } from 'react-responsive'
 
 const Desktop = ({ children }) => {
@@ -108,7 +108,8 @@ const {scrollsection,about,work,conatct,home,tech,skills}=props;
 
 {links.map((link) => (
        
-           <Text  fontWeight={"bold"} fontSize={"14px"} fontFamily="poppins" cursor="pointer" onClick={()=>scrollsection(link.path)}  p="10px"  _hover={{
+           <Text  fontWeight={"bold"} fontSize={"14px"} fontFamily="poppins" cursor="pointer" 
+           onClick={()=>scrollsection(link.path)}  p="10px"  _hover={{
             backgroundColor: "#dc143c",
             padding: '10px',
             borderRadius: "7px",
@@ -118,9 +119,10 @@ const {scrollsection,about,work,conatct,home,tech,skills}=props;
          
         
       ))}
-       <a href="Amol_Resume.pdf" download>
+       <a href={AmolResume} rel="noopener noreferrer"  target="_blank" >
+                  
                     <Button
-                    //  mt={1}
+                  // onClick={window.open}
                       h="40px"
                       fontFamily="Poppins"
                       w="100px"
@@ -228,7 +230,7 @@ const {scrollsection,about,work,conatct,home,tech,skills}=props;
          </Center>
       ))}
       
-      <Center><a href="Amol_Resume.pdf" download>
+      <Center><a href={AmolResume} rel="noopener noreferrer"  target="_blank" download>
                     <Button
                      mt={7}
                       h="40px"
@@ -336,7 +338,7 @@ const {scrollsection,about,work,conatct,home,tech,skills}=props;
          
         </Center>
       ))}
- <Center><a href="Amol_Resume.pdf" download>
+ <Center><a href={AmolResume} rel="noopener noreferrer"  target="_blank" download>
                     <Button
                      mt={7}
                       h="40px"

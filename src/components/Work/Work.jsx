@@ -15,10 +15,12 @@ import { GrGithub } from "react-icons/gr";
 import { GoLinkExternal } from "react-icons/go";
 import bewakoofImg from "../../Assets/projectImg/bewakoof.jpg";
 import foodRecipeImg from "../../Assets/projectImg/foodRecipe.jpg";
+import LibraryImg from "../../Assets/projectImg/Library.jpg";
 import shopImg from "../../Assets/projectImg/shop.com.jpg";
 import StarWarImg from "../../Assets/projectImg/star war.jpg";
 import WeatherImg from "../../Assets/projectImg/weatherApp.jpg";
 import LovodoImg from "../../Assets/projectImg/lovodo.jpg";
+import AsosImg from "../../Assets/projectImg/Asos.jpg";
 import { useMediaQuery } from "react-responsive";
 
 const Desktop = ({ children }) => {
@@ -51,25 +53,18 @@ export const Work = () => {
           bg={colorMode === "light" ? "#edf2f8" : "#0f1624"}
           textAlign="center"
         >
-          <Heading
-      
-            className={styles.Heading}
-            size="2xl"
-            fontFamily="poppins"
-          >
+          <Heading className={styles.Heading} size="2xl" fontFamily="poppins">
             {" "}
             Some <span style={{ color: "#dc143c" }}>things</span> I've Built
           </Heading>
           <Center>
             <SimpleGrid
-        
               w="75%"
               ml={20}
               mt={20}
               mr={10}
               columns={[1, 2, 3]}
               spacing="60px"
-             
             >
               <Box
                 className={styles.boxes}
@@ -79,7 +74,74 @@ export const Work = () => {
                 bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
                 color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
                 height="auto"
+              >
+                <Image
+                  m="auto"
+                  w="300px"
+                  borderRadius={5}
+                  h="150px"
+                  src={AsosImg}
+                ></Image>
+                <Heading mt={3} size="md">
+                  Asos.com Clone
+                </Heading>
+                <Box mt={3} textAlign="left">
+                  <Text fontSize="15px">
+                    ASOS is a Men and Women's fashion brand for the newest &
+                    trending Cloths,fashion accessories and online shop that
+                    offered high quality products at an affordable price.
+                  </Text>
+                  <Text fontSize="15px" mt={3}>
+                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
+                      Tech Stack :
+                    </span>{" "}
+                    React js | Redux | MongoDb | G-Pay | Express js | Node js |
+                    Javascript | CSS3 | HTML5
+                  </Text>
+                  <Text fontSize="13px" mt={3}>
+                    A collaborative project built by a team of 5 executed in 5
+                    days.
+                  </Text>
+                  <Center>
+                    <Flex w="70%"  position="relative" bottom={"-10px"} p={2}>
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/agodse21/Asos_clone"
+                          >
+                            <GrGithub size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
 
+                      <Spacer />
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://agodse21.github.io/Asos_clone/"
+                          >
+                            <GoLinkExternal size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+                    </Flex>
+                  </Center>
+                </Box>
+              </Box>
+              <Box
+                className={styles.boxes}
+                borderRadius={5}
+                // h={800}
+                p={5}
+                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
+                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+                height="auto"
               >
                 <Image
                   m="auto"
@@ -108,7 +170,7 @@ export const Work = () => {
                     days.
                   </Text>
                   <Center>
-                    <Flex w="70%" mt={9} p={2}>
+                    <Flex w="70%"  position="relative" bottom={"-30px"} p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -174,7 +236,7 @@ export const Work = () => {
                     A Solo project, built in 2 days.
                   </Text> */}
                   <Center>
-                    <Flex w="70%" mt="60px" p={2}>
+                    <Flex w="70%"  position="relative" bottom={"-50px"} p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -195,10 +257,74 @@ export const Work = () => {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noreferrer"
-                            href="https://netlify-thinks-agodse9-gmail-com-is-great-686c3.netlify.app/"
+                            href="https://agodse21.github.io/weather-app/"
                           >
                             <GoLinkExternal size="30px" />
                           </a>{" "}
+                        </Center>
+                      </Box>
+                    </Flex>
+                  </Center>
+                </Box>
+              </Box>
+              <Box
+                borderRadius={5}
+                p={5}
+                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
+                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+                height="auto"
+                className={styles.boxes}
+              >
+                <Image
+                  m="auto"
+                  w="300px"
+                  borderRadius={5}
+                  h="150px"
+                  src={LibraryImg}
+                ></Image>
+                <Heading mt={3} size="md">
+                  Book-management App
+                </Heading>
+                <Box mt={3} textAlign="left">
+                  <Text fontSize="15px">
+                    This is an Book Library app(book management) , User Can see All Books, Book details
+                    After log in. and Admin can do Edit book,delete Book
+                  </Text>
+                  <Text fontSize="15px" mt={3}>
+                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
+                      Tech Stack :
+                    </span>{" "}
+                    React js | Redux | Chakra-UI | HTML5 | CSS3 | Javascript
+                  </Text>
+                  {/* <Text fontSize="13px" mt={3}>
+                    A Solo project, built in 2 days.
+                  </Text> */}
+                  <Center>
+                    <Flex w="70%"  position="relative" bottom={"-60px"} p={2}>
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/agodse21/Book-management"
+                          >
+                            <GrGithub size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+
+                      <Spacer />
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://agodse21.github.io/Book-management/"
+                          >
+                            <GoLinkExternal size="30px" />
+                          </a>
                         </Center>
                       </Box>
                     </Flex>
@@ -241,7 +367,7 @@ export const Work = () => {
                     members.Team lead by me.
                   </Text>
                   <Center>
-                    <Flex w="70%" mt="50px" p={2}>
+                    <Flex w="70%"  position="relative" bottom={"-10px"} p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -262,72 +388,7 @@ export const Work = () => {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noreferrer"
-                            href="https://shiny-elf-f3e67f.netlify.app/"
-                          >
-                            <GoLinkExternal size="30px" />
-                          </a>
-                        </Center>
-                      </Box>
-                    </Flex>
-                  </Center>
-                </Box>
-              </Box>
-              <Box
-                borderRadius={5}
-                p={5}
-                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
-                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
-                height="auto"
-                className={styles.boxes}
-              >
-                <Image
-                  m="auto"
-                  w="300px"
-                  borderRadius={5}
-                  h="150px"
-                  src={shopImg}
-                ></Image>
-                <Heading mt={3} size="md">
-                  Shop.com Clone
-                </Heading>
-                <Box mt={3} textAlign="left">
-                  <Text fontSize="15px">
-                    A cloned Full Stack Web application of Shop.com is All in
-                    one Ecommerce site,You can shop all type of
-                    accessories,nutrition,cloths etc.
-                  </Text>
-                  <Text fontSize="15px" mt={3}>
-                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
-                      Tech Stack :
-                    </span>{" "}
-                    HTML5 | CSS3 | React Js | Chakra UI | Javascript
-                  </Text>
-                  {/* <Text fontSize="13px" mt={3}>
-                    A Individual project, built in 5 days.
-                  </Text> */}
-                  <Center>
-                    <Flex w="70%" mt={7} p={2}>
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://github.com/agodse21/super-donkey-7341"
-                          >
-                            <GrGithub size="30px" />
-                          </a>
-                        </Center>
-                      </Box>
-
-                      <Spacer />
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://isnt-agodse9-gmail-com-awesome-0c048.netlify.app/"
+                            href="https://agodse21.github.io/Bewakoof.com/"
                           >
                             <GoLinkExternal size="30px" />
                           </a>
@@ -338,70 +399,6 @@ export const Work = () => {
                 </Box>
               </Box>
 
-              <Box
-                borderRadius={5}
-                p={5}
-                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
-                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
-                height="auto"
-                className={styles.boxes}
-              >
-                <Image
-                  m="auto"
-                  w="300px"
-                  borderRadius={5}
-                  h="150px"
-                  src={foodRecipeImg}
-                ></Image>
-                <Heading mt={3} size="md">
-                  Food Recipe App
-                </Heading>
-                <Box mt={3} textAlign="left">
-                  <Text fontSize="15px">
-                    This is an food recipe app, you can Search food recipes,See
-                    different recipes,Recipe of the day
-                  </Text>
-                  <Text fontSize="15px" mt={3}>
-                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
-                      Tech Stack :
-                    </span>{" "}
-                    HTML5 | CSS3 | Javascript
-                  </Text>
-                  {/* <Text fontSize="13px" mt={3}>
-                    A Solo project, built in 2 days.
-                  </Text> */}
-                  <Center>
-                    <Flex w="70%" mt="75px" p={2}>
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://github.com/agodse21/Food-Recipe-App"
-                          >
-                            <GrGithub size="30px" />
-                          </a>
-                        </Center>
-                      </Box>
-
-                      <Spacer />
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://silver-marigold-989f09.netlify.app/"
-                          >
-                            <GoLinkExternal size="30px" />
-                          </a>
-                        </Center>
-                      </Box>
-                    </Flex>
-                  </Center>
-                </Box>
-              </Box>
               <Box
                 borderRadius={5}
                 p={5}
@@ -435,7 +432,7 @@ export const Work = () => {
                     A Solo project, built in 2 days.
                   </Text> */}
                   <Center>
-                    <Flex w="70%" mt="75px" p={2}>
+                    <Flex w="70%"  position="relative" bottom={"-100px"} p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -456,7 +453,7 @@ export const Work = () => {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noreferrer"
-                            href="https://unique-lolly-e04c94.netlify.app/"
+                            href="https://agodse21.github.io/Star-war-character-search-app/"
                           >
                             <GoLinkExternal size="30px" />
                           </a>
@@ -479,25 +476,84 @@ export const Work = () => {
           bg={colorMode === "light" ? "#edf2f8" : "#0f1624"}
           textAlign="center"
         >
-          <Heading
-            
-            className={styles.TabHeading}
-            size="xl"
-            fontFamily="poppins"
-          >
+          <Heading className={styles.TabHeading} size="xl" fontFamily="poppins">
             Some <span style={{ color: "#dc143c" }}>things</span> I've Built
           </Heading>
           <Center>
-            <SimpleGrid
-              
-              w="75%"
-              mt={20}
-              columns={2}
-              spacing="60px"
-            >
+          
+            <SimpleGrid w="75%" mt={20} columns={2} spacing="60px">
+            <Box
+                className={styles.boxes}
+                borderRadius={5}
+                // h={800}
+                p={5}
+                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
+                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+                height="auto"
+              >
+                <Image
+                  m="auto"
+                  w="300px"
+                  borderRadius={5}
+                  h="150px"
+                  src={AsosImg}
+                ></Image>
+                <Heading mt={3} size="md">
+                  Asos.com Clone
+                </Heading>
+                <Box mt={3} textAlign="left">
+                  <Text fontSize="15px">
+                    ASOS is a Men and Women's fashion brand for the newest &
+                    trending Cloths,fashion accessories and online shop that
+                    offered high quality products at an affordable price.
+                  </Text>
+                  <Text fontSize="15px" mt={3}>
+                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
+                      Tech Stack :
+                    </span>{" "}
+                    React js | Redux | MongoDb | G-Pay | Express js | Node js |
+                    Javascript | CSS3 | HTML5
+                  </Text>
+                  <Text fontSize="13px" mt={3}>
+                    A collaborative project built by a team of 5 executed in 5
+                    days.
+                  </Text>
+                  <Center>
+                    <Flex w="70%"  position="relative" bottom={"-10px"} p={2}>
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/agodse21/Asos_clone"
+                          >
+                            <GrGithub size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+
+                      <Spacer />
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://agodse21.github.io/Asos_clone/"
+                          >
+                            <GoLinkExternal size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+                    </Flex>
+                  </Center>
+                </Box>
+              </Box>
               <Box
                 className={styles.boxes}
                 borderRadius={5}
+                // h={800}
                 p={5}
                 bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
                 color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
@@ -530,7 +586,7 @@ export const Work = () => {
                     days.
                   </Text>
                   <Center>
-                    <Flex w="70%" mt={9} p={2}>
+                    <Flex w="70%"  position="relative" bottom={"-40px"} p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -596,7 +652,7 @@ export const Work = () => {
                     A Solo project, built in 2 days.
                   </Text> */}
                   <Center>
-                    <Flex w="70%" mt="60px" p={2}>
+                    <Flex w="70%"  position="relative" bottom={"-15px"} p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -617,10 +673,74 @@ export const Work = () => {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noreferrer"
-                            href="https://netlify-thinks-agodse9-gmail-com-is-great-686c3.netlify.app/"
+                            href="https://agodse21.github.io/weather-app/"
                           >
                             <GoLinkExternal size="30px" />
                           </a>{" "}
+                        </Center>
+                      </Box>
+                    </Flex>
+                  </Center>
+                </Box>
+              </Box>
+              <Box
+                borderRadius={5}
+                p={5}
+                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
+                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+                height="auto"
+                className={styles.boxes}
+              >
+                <Image
+                  m="auto"
+                  w="300px"
+                  borderRadius={5}
+                  h="150px"
+                  src={LibraryImg}
+                ></Image>
+                <Heading mt={3} size="md">
+                  Book-management App
+                </Heading>
+                <Box mt={3} textAlign="left">
+                  <Text fontSize="15px">
+                    This is an Book Library app(book management) , User Can see All Books, Book details
+                    After log in. and Admin can do Edit book,delete Book
+                  </Text>
+                  <Text fontSize="15px" mt={3}>
+                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
+                      Tech Stack :
+                    </span>{" "}
+                    React js | Redux | Chakra-UI | HTML5 | CSS3 | Javascript
+                  </Text>
+                  {/* <Text fontSize="13px" mt={3}>
+                    A Solo project, built in 2 days.
+                  </Text> */}
+                  <Center>
+                    <Flex w="70%"  position="relative" bottom={"-20px"} p={2}>
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/agodse21/Book-management"
+                          >
+                            <GrGithub size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+
+                      <Spacer />
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://agodse21.github.io/Book-management/"
+                          >
+                            <GoLinkExternal size="30px" />
+                          </a>
                         </Center>
                       </Box>
                     </Flex>
@@ -663,7 +783,7 @@ export const Work = () => {
                     members.Team lead by me.
                   </Text>
                   <Center>
-                    <Flex w="70%" mt="36px" p={2}>
+                    <Flex w="70%"  position="relative" bottom={"-10px"} p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -684,72 +804,7 @@ export const Work = () => {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noreferrer"
-                            href="https://shiny-elf-f3e67f.netlify.app/"
-                          >
-                            <GoLinkExternal size="30px" />
-                          </a>
-                        </Center>
-                      </Box>
-                    </Flex>
-                  </Center>
-                </Box>
-              </Box>
-              <Box
-                borderRadius={5}
-                p={5}
-                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
-                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
-                height="auto"
-                className={styles.boxes}
-              >
-                <Image
-                  m="auto"
-                  w="300px"
-                  borderRadius={5}
-                  h="150px"
-                  src={shopImg}
-                ></Image>
-                <Heading mt={3} size="md">
-                  Shop.com Clone
-                </Heading>
-                <Box mt={3} textAlign="left">
-                  <Text fontSize="15px">
-                    A cloned Full Stack Web application of Shop.com is All in
-                    one Ecommerce site,You can shop all type of
-                    accessories,nutrition,cloths etc.
-                  </Text>
-                  <Text fontSize="15px" mt={3}>
-                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
-                      Tech Stack :
-                    </span>{" "}
-                    HTML5 | CSS3 | React Js | Chakra UI | Javascript
-                  </Text>
-                  {/* <Text fontSize="13px" mt={3}>
-                    A Individual project, built in 5 days.
-                  </Text> */}
-                  <Center>
-                    <Flex w="70%" mt="100px" p={2}>
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://github.com/agodse21/super-donkey-7341"
-                          >
-                            <GrGithub size="30px" />
-                          </a>
-                        </Center>
-                      </Box>
-
-                      <Spacer />
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://isnt-agodse9-gmail-com-awesome-0c048.netlify.app/"
+                            href="https://agodse21.github.io/Bewakoof.com/"
                           >
                             <GoLinkExternal size="30px" />
                           </a>
@@ -760,70 +815,6 @@ export const Work = () => {
                 </Box>
               </Box>
 
-              <Box
-                borderRadius={5}
-                p={5}
-                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
-                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
-                height="auto"
-                className={styles.boxes}
-              >
-                <Image
-                  m="auto"
-                  w="300px"
-                  borderRadius={5}
-                  h="150px"
-                  src={foodRecipeImg}
-                ></Image>
-                <Heading mt={3} size="md">
-                  Food Recipe App
-                </Heading>
-                <Box mt={3} textAlign="left">
-                  <Text fontSize="15px">
-                    This is an food recipe app, you can Search food recipes,See
-                    different recipes,Recipe of the day
-                  </Text>
-                  <Text fontSize="15px" mt={3}>
-                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
-                      Tech Stack :
-                    </span>{" "}
-                    HTML5 | CSS3 | Javascript
-                  </Text>
-                  {/* <Text fontSize="13px" mt={3}>
-                    A Solo project, built in 2 days.
-                  </Text> */}
-                  <Center>
-                    <Flex w="70%" mt="75px" p={2}>
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://github.com/agodse21/Food-Recipe-App"
-                          >
-                            <GrGithub size="30px" />
-                          </a>
-                        </Center>
-                      </Box>
-
-                      <Spacer />
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://silver-marigold-989f09.netlify.app/"
-                          >
-                            <GoLinkExternal size="30px" />
-                          </a>
-                        </Center>
-                      </Box>
-                    </Flex>
-                  </Center>
-                </Box>
-              </Box>
               <Box
                 borderRadius={5}
                 p={5}
@@ -857,7 +848,7 @@ export const Work = () => {
                     A Solo project, built in 2 days.
                   </Text> */}
                   <Center>
-                    <Flex w="70%" mt="35px" p={2}>
+                    <Flex w="70%"  position="relative" bottom={"-100px"} p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -878,7 +869,7 @@ export const Work = () => {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noreferrer"
-                            href="https://unique-lolly-e04c94.netlify.app/"
+                            href="https://agodse21.github.io/Star-war-character-search-app/"
                           >
                             <GoLinkExternal size="30px" />
                           </a>
@@ -894,32 +885,90 @@ export const Work = () => {
       </Tablet>
       <Mobile>
         <Box
-        w="120%"
+          w="120%"
           fontFamily="poppins"
           pt={5}
           pb={20}
           bg={colorMode === "light" ? "#edf2f8" : "#0f1624"}
           textAlign="center"
         >
-          <Heading
-            
-            className={styles.MobHeading}
-            size="xl"
-            fontFamily="poppins"
-          >
+          <Heading className={styles.MobHeading} size="xl" fontFamily="poppins">
             Some <span style={{ color: "#dc143c" }}>things</span> I've Built
           </Heading>
           <Center>
-            <SimpleGrid
-              
-              w="75%"
-              mt={25}
-              columns={1}
-              spacing="60px"
-            >
+            <SimpleGrid w="75%" mt={25} columns={1} spacing="60px">
+            <Box
+                className={styles.boxes}
+                borderRadius={5}
+                // h={800}
+                p={5}
+                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
+                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+                height="auto"
+              >
+                <Image
+                  m="auto"
+                  w="300px"
+                  borderRadius={5}
+                  h="150px"
+                  src={AsosImg}
+                ></Image>
+                <Heading mt={3} size="md">
+                  Asos.com Clone
+                </Heading>
+                <Box mt={3} textAlign="left">
+                  <Text fontSize="15px">
+                    ASOS is a Men and Women's fashion brand for the newest &
+                    trending Cloths,fashion accessories and online shop that
+                    offered high quality products at an affordable price.
+                  </Text>
+                  <Text fontSize="15px" mt={3}>
+                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
+                      Tech Stack :
+                    </span>{" "}
+                    React js | Redux | MongoDb | G-Pay | Express js | Node js |
+                    Javascript | CSS3 | HTML5
+                  </Text>
+                  <Text fontSize="13px" mt={3}>
+                    A collaborative project built by a team of 5 executed in 5
+                    days.
+                  </Text>
+                  <Center>
+                    <Flex w="70%"  position="relative" bottom={"-10px"} p={2}>
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/agodse21/Asos_clone"
+                          >
+                            <GrGithub size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+
+                      <Spacer />
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://agodse21.github.io/Asos_clone/"
+                          >
+                            <GoLinkExternal size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+                    </Flex>
+                  </Center>
+                </Box>
+              </Box>
               <Box
                 className={styles.boxes}
                 borderRadius={5}
+                // h={800}
                 p={5}
                 bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
                 color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
@@ -952,7 +1001,7 @@ export const Work = () => {
                     days.
                   </Text>
                   <Center>
-                    <Flex w="70%" mt={9} p={2}>
+                    <Flex w="70%"  position="relative" bottom={"-10px"} p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -1018,7 +1067,7 @@ export const Work = () => {
                     A Solo project, built in 2 days.
                   </Text> */}
                   <Center>
-                    <Flex w="70%" mt="60px" p={2}>
+                    <Flex w="70%"  position="relative" bottom={"-10px"} p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -1039,10 +1088,74 @@ export const Work = () => {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noreferrer"
-                            href="https://netlify-thinks-agodse9-gmail-com-is-great-686c3.netlify.app/"
+                            href="https://agodse21.github.io/weather-app/"
                           >
                             <GoLinkExternal size="30px" />
                           </a>{" "}
+                        </Center>
+                      </Box>
+                    </Flex>
+                  </Center>
+                </Box>
+              </Box>
+              <Box
+                borderRadius={5}
+                p={5}
+                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
+                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
+                height="auto"
+                className={styles.boxes}
+              >
+                <Image
+                  m="auto"
+                  w="300px"
+                  borderRadius={5}
+                  h="150px"
+                  src={LibraryImg}
+                ></Image>
+                <Heading mt={3} size="md">
+                  Book-management App
+                </Heading>
+                <Box mt={3} textAlign="left">
+                  <Text fontSize="15px">
+                    This is an Book Library app(book management) , User Can see All Books, Book details
+                    After log in. and Admin can do Edit book,delete Book
+                  </Text>
+                  <Text fontSize="15px" mt={3}>
+                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
+                      Tech Stack :
+                    </span>{" "}
+                    React js | Redux | Chakra-UI | HTML5 | CSS3 | Javascript
+                  </Text>
+                  {/* <Text fontSize="13px" mt={3}>
+                    A Solo project, built in 2 days.
+                  </Text> */}
+                  <Center>
+                    <Flex w="70%"  position="relative" bottom={"-10px"} p={2}>
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/agodse21/Book-management"
+                          >
+                            <GrGithub size="30px" />
+                          </a>
+                        </Center>
+                      </Box>
+
+                      <Spacer />
+                      <Box className={styles.liveIcons}>
+                        <Center>
+                          <a
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://agodse21.github.io/Book-management/"
+                          >
+                            <GoLinkExternal size="30px" />
+                          </a>
                         </Center>
                       </Box>
                     </Flex>
@@ -1085,7 +1198,7 @@ export const Work = () => {
                     members.Team lead by me.
                   </Text>
                   <Center>
-                    <Flex w="70%" mt="36px" p={2}>
+                    <Flex w="70%"  position="relative" bottom={"-10px"} p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -1106,72 +1219,7 @@ export const Work = () => {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noreferrer"
-                            href="https://shiny-elf-f3e67f.netlify.app/"
-                          >
-                            <GoLinkExternal size="30px" />
-                          </a>
-                        </Center>
-                      </Box>
-                    </Flex>
-                  </Center>
-                </Box>
-              </Box>
-              <Box
-                borderRadius={5}
-                p={5}
-                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
-                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
-                height="auto"
-                className={styles.boxes}
-              >
-                <Image
-                  m="auto"
-                  w="300px"
-                  borderRadius={5}
-                  h="150px"
-                  src={shopImg}
-                ></Image>
-                <Heading mt={3} size="md">
-                  Shop.com Clone
-                </Heading>
-                <Box mt={3} textAlign="left">
-                  <Text fontSize="15px">
-                    A cloned Full Stack Web application of Shop.com is All in
-                    one Ecommerce site,You can shop all type of
-                    accessories,nutrition,cloths etc.
-                  </Text>
-                  <Text fontSize="15px" mt={3}>
-                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
-                      Tech Stack :
-                    </span>{" "}
-                    HTML5 | CSS3 | React Js | Chakra UI | Javascript
-                  </Text>
-                  {/* <Text fontSize="13px" mt={3}>
-                    A Individual project, built in 5 days.
-                  </Text> */}
-                  <Center>
-                    <Flex w="70%" mt={7} p={2}>
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://github.com/agodse21/super-donkey-7341"
-                          >
-                            <GrGithub size="30px" />
-                          </a>
-                        </Center>
-                      </Box>
-
-                      <Spacer />
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://isnt-agodse9-gmail-com-awesome-0c048.netlify.app/"
+                            href="https://agodse21.github.io/Bewakoof.com/"
                           >
                             <GoLinkExternal size="30px" />
                           </a>
@@ -1182,70 +1230,6 @@ export const Work = () => {
                 </Box>
               </Box>
 
-              <Box
-                borderRadius={5}
-                p={5}
-                bg={colorMode === "light" ? "#0f1624" : "#edf2f8"}
-                color={colorMode === "light" ? "#edf2f8" : "#0f1624"}
-                height="auto"
-                className={styles.boxes}
-              >
-                <Image
-                  m="auto"
-                  w="300px"
-                  borderRadius={5}
-                  h="150px"
-                  src={foodRecipeImg}
-                ></Image>
-                <Heading mt={3} size="md">
-                  Food Recipe App
-                </Heading>
-                <Box mt={3} textAlign="left">
-                  <Text fontSize="15px">
-                    This is an food recipe app, you can Search food recipes,See
-                    different recipes,Recipe of the day
-                  </Text>
-                  <Text fontSize="15px" mt={3}>
-                    <span style={{ color: "#dc143c", fontWeight: "bold" }}>
-                      Tech Stack :
-                    </span>{" "}
-                    HTML5 | CSS3 | Javascript
-                  </Text>
-                  {/* <Text fontSize="13px" mt={3}>
-                    A Solo project, built in 2 days.
-                  </Text> */}
-                  <Center>
-                    <Flex w="70%" mt="75px" p={2}>
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://github.com/agodse21/Food-Recipe-App"
-                          >
-                            <GrGithub size="30px" />
-                          </a>
-                        </Center>
-                      </Box>
-
-                      <Spacer />
-                      <Box className={styles.liveIcons}>
-                        <Center>
-                          <a
-                            className={styles.SocialIcon}
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://silver-marigold-989f09.netlify.app/"
-                          >
-                            <GoLinkExternal size="30px" />
-                          </a>
-                        </Center>
-                      </Box>
-                    </Flex>
-                  </Center>
-                </Box>
-              </Box>
               <Box
                 borderRadius={5}
                 p={5}
@@ -1279,7 +1263,7 @@ export const Work = () => {
                     A Solo project, built in 2 days.
                   </Text> */}
                   <Center>
-                    <Flex w="70%" mt="35px" p={2}>
+                    <Flex w="70%"  position="relative" bottom={"-10px"} p={2}>
                       <Box className={styles.liveIcons}>
                         <Center>
                           <a
@@ -1300,7 +1284,7 @@ export const Work = () => {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noreferrer"
-                            href="https://unique-lolly-e04c94.netlify.app/"
+                            href="https://agodse21.github.io/Star-war-character-search-app/"
                           >
                             <GoLinkExternal size="30px" />
                           </a>

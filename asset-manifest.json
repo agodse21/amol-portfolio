@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/amol-portfolio/static/css/main.1d3f156e.css",
-    "main.js": "/amol-portfolio/static/js/main.e13447ca.js",
+    "main.js": "/amol-portfolio/static/js/main.81f407c8.js",
     "static/js/787.1ed0c42c.chunk.js": "/amol-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/foodRecipe.jpg": "/amol-portfolio/static/media/foodRecipe.d702886d447a3e7a0c87.jpg",
     "static/media/shop.com.jpg": "/amol-portfolio/static/media/shop.com.cfe7e8f0b5e79400cae3.jpg",
@@ -11,7 +11,7 @@
     "static/media/Library.jpg": "/amol-portfolio/static/media/Library.665ed53d0a8c25c540ff.jpg",
     "static/media/bewakoof.jpg": "/amol-portfolio/static/media/bewakoof.f67c32ac7dae9636f95d.jpg",
     "static/media/PicsArt_12-13-12.59.47.jpg": "/amol-portfolio/static/media/PicsArt_12-13-12.59.47.8684d9bd1c5dab2d66ce.jpg",
-    "static/media/Amol_Resume.pdf": "/amol-portfolio/static/media/Amol_Resume.0944450ed18bf9f69174.pdf",
+    "static/media/Amol_Resume.pdf": "/amol-portfolio/static/media/Amol_Resume.51a1270804059d4f2327.pdf",
     "static/media/timeManage.png": "/amol-portfolio/static/media/timeManage.4644a4b2b8ed5f538eec.png",
     "static/media/lovodo.jpg": "/amol-portfolio/static/media/lovodo.da82a7a7314e3625ee25.jpg",
     "static/media/star war.jpg": "/amol-portfolio/static/media/star war.53dc05ffce4edc1be05b.jpg",
@@ -39,11 +39,11 @@
     "static/media/css.svg": "/amol-portfolio/static/media/css.43b6f4bdbc0f36b9f2dd15c6ebbcea15.svg",
     "static/media/html.svg": "/amol-portfolio/static/media/html.6a342d61e4fe710cf3e5c05b65b0ac87.svg",
     "main.1d3f156e.css.map": "/amol-portfolio/static/css/main.1d3f156e.css.map",
-    "main.e13447ca.js.map": "/amol-portfolio/static/js/main.e13447ca.js.map",
+    "main.81f407c8.js.map": "/amol-portfolio/static/js/main.81f407c8.js.map",
     "787.1ed0c42c.chunk.js.map": "/amol-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d3f156e.css",
-    "static/js/main.e13447ca.js"
+    "static/js/main.81f407c8.js"
   ]
 }

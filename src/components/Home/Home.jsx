@@ -22,10 +22,10 @@ import { Skills } from "../Skills/Skills";
 import { Work } from "../Work/Work";
 import { Contact } from "../Contact/Contact";
 import { ChevronRightIcon } from "@chakra-ui/icons";
-import AmolResume from "../../Assets/Amol_Resume.pdf"
+import AmolResume from "../../Assets/Amol_Resume.pdf";
 
 import { useMediaQuery } from "react-responsive";
-import {TechStack} from "../Tech Stack/TechStack";
+import { TechStack } from "../Tech Stack/TechStack";
 import { GithubCalender } from "../GitCalender/GithubCalender";
 import { GitStat } from "../GitStat/gitstat";
 
@@ -53,15 +53,15 @@ const typewritterStrings = [
 ];
 
 export const Home = ({ props }) => {
-  const { scrollsection, about, work, conatct, home,tech, skills } = props;
+  const { scrollsection, about, work, conatct, home, tech, skills } = props;
 
   const { colorMode, toggleColorMode } = useColorMode();
- 
+
   return (
     <>
       <Desktop>
         <Box
-       w="100%"
+          w="100%"
           position="relative"
           fontFamily="poppins"
           mt="80px"
@@ -71,81 +71,67 @@ export const Home = ({ props }) => {
           // border="1px solid red"
         >
           <Flex alignItems="center" w="100%" m="auto" justifyContent={"center"}>
-          
-              <Box
-          
-                
-                h="640px"
-               p={5}
-              w="50%"
-                fontFamily="poppins"
-                textAlign="start"
-              >
-                <Box ml={200} mt={150}>
-                  <Text
-                    fontFamily="poppins"
-                    fontSize="3xl"
-                    className={styles.font}
+            <Box h="640px" p={5} w="50%" fontFamily="poppins" textAlign="start">
+              <Box ml={200} mt={150}>
+                <Text
+                  fontFamily="poppins"
+                  fontSize="3xl"
+                  className={styles.font}
+                  fontWeight="bold"
+                >
+                  Hi, I am
+                </Text>
+
+                <Heading
+                  size="3xl"
+                  mt={5}
+                  fontFamily="poppins"
+                  fontWeight="bold"
+                  className={styles.font}
+                >
+                  AMOL GODSE
+                </Heading>
+                <Heading fontFamily="poppins" size="lg" color="#dc143c" mt={5}>
+                  <Typewriter
+                    options={{
+                      strings: [
+                        "Full Stack Web Developer.",
+                        "Frontend Developer.",
+                        "MERN Stack Developer.",
+                        "A tech enthusiastic.",
+                      ],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+                </Heading>
+
+                <a href={AmolResume} target="_blank" download>
+                  <Button
+                    mt={10}
+                    onClick={() => {
+                      window.open(AmolResume);
+                    }}
+                    h="50px"
+                    fontFamily="Poppins"
+                    w="150px"
                     fontWeight="bold"
+                    fontSize="20px"
+                    color="white"
+                    bg="#dc143c"
+                    _hover={{
+                      background: "transparent",
+                      color: "#dc143c",
+                      border: "2px solid #dc143c",
+                    }}
                   >
-                    Hi, I am
-                  </Text>
-
-                  <Heading
-                    size="3xl"
-                    mt={5}
-                    fontFamily="poppins"
-                    fontWeight="bold"
-                    className={styles.font}
-                  >
-                    AMOL GODSE
-                  </Heading>
-                  <Heading
-                    fontFamily="poppins"
-                    size="lg"
-                    color="#dc143c"
-                    mt={5}
-                  >
-                    <Typewriter
-                      options={{
-                        strings: [
-                          "Full Stack Web Developer.",
-                          "Frontend Developer.",
-                          "MERN Stack Developer.",
-                          "A tech enthusiastic.",
-                        ],
-                        autoStart: true,
-                        loop: true,
-                      }}
-                    />
-                  </Heading>
-
-                  <a href={AmolResume} target="_blank" download>
-                    <Button
-                      mt={10}
-                      h="50px"
-                      fontFamily="Poppins"
-                      w="150px"
-                      fontWeight="bold"
-                      fontSize="20px"
-                      color="white"
-                      bg="#dc143c"
-                      _hover={{
-                        background: "transparent",
-                        color: "#dc143c",
-                        border: "2px solid #dc143c",
-                      }}
-                    >
-                      {/* <Icon size="" as={ChevronRightIcon} /> */}
-                      RESUME
-                    </Button>
-                  </a>
-
-                  {/* <Button>amol</Button> */}
-                </Box>
+                    RESUME
+                  </Button>
+                </a>
               </Box>
-            
-            <Box    w="50%">
+            </Box>
+
+            <Box w="50%">
               <Flex alignItems="center">
                 <HeaderSection />
               </Flex>
@@ -154,16 +140,14 @@ export const Home = ({ props }) => {
         </Box>
         <Box className={styles.line}></Box>
 
-        <Box  ref={about}>
+        <Box ref={about}>
           <About />
-      
         </Box>
         <Box ref={work}>
           <Work />
-          
         </Box>
-        <Box  h="800px" ref={tech} >
-         <TechStack />
+        <Box h="800px" ref={tech}>
+          <TechStack />
         </Box>
         <Box ref={skills}>
           <Skills />
@@ -172,10 +156,9 @@ export const Home = ({ props }) => {
           <Contact />
         </Box>
       </Desktop>
-   
-   
+
       <Tablet>
-      <Box
+        <Box
           w="100%"
           position="relative"
           zIndex="1"
@@ -197,42 +180,56 @@ export const Home = ({ props }) => {
                 </Circle>
               </Box>
               <Box>
-      <Text
-      mt={5}
-        fontSize="1xl"
-        className={styles.font}
-        fontWeight="bold"
-        align="center"
-      >
-        Hi, I am
-      </Text>
+                <Text
+                  mt={5}
+                  fontSize="1xl"
+                  className={styles.font}
+                  fontWeight="bold"
+                  align="center"
+                >
+                  Hi, I am
+                </Text>
 
-      <Heading
-        size="2xl"
-        mt={5}
-        fontWeight="bold"
-        className={styles.font}
-      >
-        AMOL GODSE
-      </Heading>
-      <Heading textAlign="center" size="sm" w="100%" color="#dc143c" mt={5}>
-        <Typewriter
-          options={{
-            strings: [
-              "Full Stack Web Developer.",
-              "Frontend Developer.",
-              "MERN Stack Developer.",
-              "A tech enthusiastic.",
-            ],
-            autoStart: true,
-            loop: true,
-          }}
-        />
-      </Heading>
-      <Center>
-      <a href={AmolResume} rel="noopener noreferrer"  target="_blank">
+                <Heading
+                  size="2xl"
+                  mt={5}
+                  fontWeight="bold"
+                  className={styles.font}
+                >
+                  AMOL GODSE
+                </Heading>
+                <Heading
+                  textAlign="center"
+                  size="sm"
+                  w="100%"
+                  color="#dc143c"
+                  mt={5}
+                >
+                  <Typewriter
+                    options={{
+                      strings: [
+                        "Full Stack Web Developer.",
+                        "Frontend Developer.",
+                        "MERN Stack Developer.",
+                        "A tech enthusiastic.",
+                      ],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+                </Heading>
+                <Center>
+                  <a
+                    href={AmolResume}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    download
+                  >
                     <Button
                       mt={10}
+                      onClick={() => {
+                        window.open(AmolResume);
+                      }}
                       h="40px"
                       fontFamily="Poppins"
                       w="100px"
@@ -246,33 +243,32 @@ export const Home = ({ props }) => {
                         border: "2px solid #dc143c",
                       }}
                     >
-                  
                       RESUME
                     </Button>
                   </a>
-                  </Center>
-    </Box>
+                </Center>
+              </Box>
             </Stack>
           </Center>
         </Box>
         <Box h="auto" ref={about}>
           <About />
           <GithubCalender />
-        <GitStat />
+          <GitStat />
         </Box>
-       
+
         <Box h="auto" ref={work}>
           <Work />
         </Box>
-        <Box ref={tech} >
-         <TechStack />
+        <Box ref={tech}>
+          <TechStack />
         </Box>
         <Box h="auto" ref={skills}>
           <Skills />
         </Box>
         <Box h="auto" ref={conatct}>
           <Contact />
-        </Box> 
+        </Box>
       </Tablet>
       <Mobile>
         <Box
@@ -297,41 +293,55 @@ export const Home = ({ props }) => {
                 </Circle>
               </Box>
               <Box>
-      <Text
-      mt={5}
-        fontSize="1xl"
-        className={styles.font}
-        fontWeight="bold"
-        align="center"
-      >
-        Hi, I am
-      </Text>
+                <Text
+                  mt={5}
+                  fontSize="1xl"
+                  className={styles.font}
+                  fontWeight="bold"
+                  align="center"
+                >
+                  Hi, I am
+                </Text>
 
-      <Heading
-        size="2xl"
-        mt={5}
-        fontWeight="bold"
-        className={styles.font}
-      >
-        AMOL GODSE
-      </Heading>
-      <Heading size="sm" textAlign="center" w="100%" color="#dc143c" mt={5}>
-        <Typewriter
-          options={{
-            strings: [
-              "Full Stack Web Developer.",
-              "Frontend Developer.",
-              "MERN Stack Developer.",
-              "A tech enthusiastic.",
-            ],
-            autoStart: true,
-            loop: true,
-          }}
-        />
-      </Heading>
-      <Center>
-      <a href={AmolResume} rel="noopener noreferrer"  target="_blank">
+                <Heading
+                  size="2xl"
+                  mt={5}
+                  fontWeight="bold"
+                  className={styles.font}
+                >
+                  AMOL GODSE
+                </Heading>
+                <Heading
+                  size="sm"
+                  textAlign="center"
+                  w="100%"
+                  color="#dc143c"
+                  mt={5}
+                >
+                  <Typewriter
+                    options={{
+                      strings: [
+                        "Full Stack Web Developer.",
+                        "Frontend Developer.",
+                        "MERN Stack Developer.",
+                        "A tech enthusiastic.",
+                      ],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+                </Heading>
+                <Center>
+                  <a
+                    href={AmolResume}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    download
+                  >
                     <Button
+                      onClick={() => {
+                        window.open(AmolResume);
+                      }}
                       mt={10}
                       h="40px"
                       fontFamily="Poppins"
@@ -346,26 +356,25 @@ export const Home = ({ props }) => {
                         border: "2px solid #dc143c",
                       }}
                     >
-                  
                       RESUME
                     </Button>
                   </a>
-                  </Center>
-    </Box>
+                </Center>
+              </Box>
             </Stack>
           </Center>
         </Box>
-        <Box h="auto"  ref={about}>
+        <Box h="auto" ref={about}>
           <About />
           <GithubCalender />
           <GitStat />
         </Box>
-        
+
         <Box h="auto" ref={work}>
           <Work />
         </Box>
-        <Box ref={tech} >
-         <TechStack />
+        <Box ref={tech}>
+          <TechStack />
         </Box>
         <Box h="auto" ref={skills}>
           <Skills />
@@ -374,7 +383,6 @@ export const Home = ({ props }) => {
           <Contact />
         </Box>
       </Mobile>
-   
     </>
   );
 };

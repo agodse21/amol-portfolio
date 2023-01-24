@@ -124,7 +124,7 @@ export const Work = () => {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noreferrer"
-                            href="https://agodse21.github.io/Asos_clone/"
+                            href="https://frontend-eight-lime.vercel.app/"
                           >
                             <GoLinkExternal size="30px" />
                           </a>
@@ -540,7 +540,7 @@ export const Work = () => {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noreferrer"
-                            href="https://agodse21.github.io/Asos_clone/"
+                            href="https://frontend-eight-lime.vercel.app/"
                           >
                             <GoLinkExternal size="30px" />
                           </a>
@@ -955,7 +955,7 @@ export const Work = () => {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noreferrer"
-                            href="https://agodse21.github.io/Asos_clone/"
+                            href="https://frontend-eight-lime.vercel.app/"
                           >
                             <GoLinkExternal size="30px" />
                           </a>
